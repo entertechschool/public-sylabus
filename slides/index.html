@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enter Slides</title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Fuente Work Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Estilos de RevealJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/theme/blood.min.css" id="theme">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+  <link rel="stylesheet" href="styles.css?v=2.0.0">
+
+  <!-- Mermaid plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <!-- Pantalla de carga con branding -->
+  <div class="loading-screen" id="loading">
+    <div class="loading-content">
+      <img src="assets/enter_isotipo_white.png" alt="Enter Tech School Logo" class="loading-logo">
+      <div class="loading-spinner"></div>
+      <p>Cargando presentación...</p>
+    </div>
+  </div>
+  
+  <div class="error-message" id="error" style="display: none;"></div>
+  
+  <!-- Branding header -->
+  <div class="brand-header">
+    <img src="assets/enter_logo_white.png" alt="Enter Tech School Logo" class="brand-logo">
+  </div>
+
+  <!-- Botón whiteboard toggle -->
+  <button class="whiteboard-toggle-btn" id="whiteboard-toggle-btn" title="Toggle Whiteboard (W)">
+    W
+  </button>
+
+  <!-- Modal para imagen fullscreen -->
+  <div class="image-modal" id="image-modal">
+    <button class="image-modal-close" id="image-modal-close">&times;</button>
+    <div class="image-modal-content">
+      <img id="image-modal-img" src="" alt="">
+    </div>
+  </div>
+
+  <!-- Container principal para layout dual -->
+  <div class="presentation-container" id="presentation-container">
+    <div class="reveal" id="reveal-container">
+      <div class="slides" id="slides-container">
+        <!-- El contenido de las diapositivas se cargará aquí -->
+      </div>
+    </div>
+
+    <!-- Whiteboard panel (inicialmente oculto) -->
+    <div class="whiteboard-panel" id="whiteboard-panel">
+      <div class="whiteboard-header">
+        <span>Whiteboard</span>
+        <button class="close-whiteboard" id="close-whiteboard">×</button>
+      </div>
+      <div class="whiteboard-area" id="whiteboard-area">
+        <!-- Área blanca para anotaciones -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts de RevealJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/markdown/markdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/notes/notes.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/zoom/zoom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/math/math.min.js"></script>
+  
+  <!-- Script personalizado -->
+  <script src="app.js?v=2.0.0"></script>
+</body>
+</html>
