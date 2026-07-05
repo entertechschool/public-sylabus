@@ -80,11 +80,3 @@ Este módulo final te capacita en el diseño de planes de continuidad de negocio
 ## 📝 Cómo se evalúa
 - [Rúbrica de Cyber 201](assessment/)
 
-# Admisión
-- [Revisa las formas de ingresar aquí](entrance/)
-
----
-
-## 📅 Calendario
-- [Próximo Inicio de Cyber 201](calendar/)
-

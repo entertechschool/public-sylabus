@@ -246,7 +246,3 @@ Proyecto de 2 semanas (sprints) trabajando con datos reales de empresas partner:
 - Código con comentarios básicos
 
 
-# Admisión
-- [Revisa las formas de ingresar aquí](entrance/)
-
----

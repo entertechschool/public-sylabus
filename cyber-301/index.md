@@ -99,5 +99,3 @@ Aplicación de conceptos de Módulos 1–4 en un caso empresarial simulado:
 - Reporte ejecutivo a directorio.  
 
 
-# Admisión
-- [Revisa las formas de ingresar aquí](entrance/)

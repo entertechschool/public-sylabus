@@ -62,5 +62,3 @@ Este módulo se centra en la gestión de eventos y el manejo de datos en aplicac
 En este módulo final, aplicarás todos tus conocimientos en un proyecto real. Desde la ideación hasta la implementación, aprenderás metodologías ágiles y técnicas de validación de usuarios. Trabajarás en sprints iterativos, recibiendo feedback constante y mejorando tu aplicación basándote en las necesidades reales de los usuarios.
 - _Proyecto final_: **Aplicación Web Interactiva Validada por Usuarios Reales**.
 
-# Admisión
-- [Revisa las formas de ingresar aquí](entrance/)
