@@ -1,3 +1,5 @@
+theme: jekyll-theme-leap-day
 title: EnterTechSchool — Sílabos
 description: Programas y sílabos de los cursos de EnterTechSchool
-theme: jekyll-theme-cayman
+baseurl: /public-sylabus
+url: https://entertechschool.github.io

@@ -1,9 +1,12 @@
 ---
-title: EnterTechSchool — Sílabos
+layout: default
+title: Sílabos — EnterTechSchool
 description: Programas y sílabos de nuestros cursos
 ---
 
-## Programas disponibles
+# Programas EnterTechSchool
+
+Sílabos de nuestros cursos. Elige un programa:
 
 - 💻 **[Code 101 — Elementals](code-101/)**
 - 💻 **[Code 201 — Fundamentals](code-201/)**

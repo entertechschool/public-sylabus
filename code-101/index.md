@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Code 101 — Elementals"
 ---
 

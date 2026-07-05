@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Cyber 301 — Professional"
 ---
 

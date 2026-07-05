@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Data 101 — Análisis de Datos"
 ---
 

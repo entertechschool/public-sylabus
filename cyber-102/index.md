@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Cyber 102 — SOC Analyst L1"
 ---
 

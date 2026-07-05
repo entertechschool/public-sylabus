@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "AI 101 — IA + Automatización"
 ---
 
