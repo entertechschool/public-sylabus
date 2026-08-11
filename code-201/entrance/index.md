@@ -12,8 +12,6 @@ Hay dos formas de entrar a **Code 201: Fundamentals of Software Development**.
 - Manejo básico de computadora y navegador web.
 - **Code 101: Elementals Software Development** (aprobado).
 
-> ¿Code 101 inconcluso? → **[Flujo Fast — 1 semana](fast-101/)**
-
 ## Flujo extraordinario: Examen de Admisión
 
 Si ya tienes los fundamentos pero no cursaste Code 101, puedes rendir el examen de admisión y entrar directamente a Code 201.
