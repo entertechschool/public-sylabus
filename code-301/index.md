@@ -10,7 +10,7 @@ title: "Code 301 — Professional"
    - Clases en vivo online (2 veces por semana, 8:00 PM - 10:30 PM)
    - 26 sesiones: 5 módulos técnicos de 4 clases + Proyecto Final de 6 clases
 
-**Dirigido a**: Personas adultas que ya dominan los fundamentos de desarrollo web y buscan convertirse en desarrolladores Full Stack modernos con integración de IA.
+**Dirigido a**: Personas que ya dominan los fundamentos de desarrollo web y buscan convertirse en desarrolladores Full Stack modernos con integración de IA.
 
 Este curso te convertirá en un **Desarrollador Full Stack + IA** con dominio del ecosistema JavaScript moderno. Aprenderás a construir aplicaciones completas con React, TypeScript, Next.js 15 y PostgreSQL, con autenticación profesional y despliegue en la nube, integrando la IA como herramienta de soporte para escribir, validar y optimizar código en cada fase del desarrollo.
 
