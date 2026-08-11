@@ -10,7 +10,7 @@ title: "Code 201 — Fundamentals"
    - Clases en vivo online (2 veces por semana, 8:00 PM - 10:30 PM)
    - 20 clases + presentación del Proyecto Integrador al cierre de cada módulo
 
-**Dirigido a**: Personas adultas con conocimientos básicos de desarrollo web (HTML, CSS, lógica con JavaScript).
+**Dirigido a**: Personas con conocimientos básicos de desarrollo web (HTML, CSS, lógica con JavaScript).
 
 Este curso consolida tu transición de principiante a desarrollador(a) con fundamentos sólidos. Aprenderás a construir layouts responsivos con Flexbox y Grid, a programar con los tres paradigmas (imperativo, funcional y orientado a objetos), a consumir APIs reales con `fetch` y `async/await`, y a manejar estado persistido en LocalStorage sobre módulos ESM. Cierras con un proyecto integrador individual que construyes con la IA como copiloto dirigido y presentas en un Demo Day.
 
