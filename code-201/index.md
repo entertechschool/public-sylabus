@@ -16,6 +16,8 @@ Este curso consolida tu transición de principiante a desarrollador(a) con funda
 
 > 🟡 Requiere conocimientos básicos de HTML, CSS y lógica con JavaScript.
 
+> 🎓 ¿Quieres entrar directo a Code 201 sin cursar Code 101? Revisa los [requisitos de ingreso y el examen de admisión](entrance/).
+
 ## Inversión de tiempo
 
 | Tipo de actividad          | Horas |

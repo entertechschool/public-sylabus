@@ -18,6 +18,8 @@ Al terminar el curso, habrás logrado agregar varios proyectos profesionales a t
 
 > 🟡 Requiere dominio práctico de HTML, CSS, JavaScript y Git, además de fundamentos sólidos de programación y experiencia previa desarrollando apps web.
 
+> 🎓 ¿Quieres entrar directo a Code 301 sin cursar Code 201? Revisa los [requisitos de ingreso y el examen de admisión](entrance/).
+
 ## Inversión de tiempo
 
 | Tipo de actividad          | Horas |
