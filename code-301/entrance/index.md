@@ -25,9 +25,7 @@ Si ya desarrollas aplicaciones web con JavaScript pero no cursaste Code 201, pue
 | **Modalidad** | Examen en línea, con cronómetro |
 | **Programación** | Se coordina anticipadamente con el Director Académico de Enter Tech School |
 
-> 🔗 **[Rendir el examen de ingreso a Code 301](https://entertechschool.github.io/examen-ingreso/exams/301-entrance/quiz/){:target="_blank"}**
->
-> Ingresa únicamente en la fecha y hora acordadas: el cronómetro corre desde que abres el examen.
+> 📩 El enlace al examen se entrega al momento de rendirlo, en la fecha y hora acordadas. El cronómetro corre desde que lo abres.
 
 ### Temas evaluados
 

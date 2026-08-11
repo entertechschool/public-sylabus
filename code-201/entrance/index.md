@@ -24,9 +24,7 @@ Si ya tienes los fundamentos pero no cursaste Code 101, puedes rendir el examen 
 | **Modalidad** | Examen en línea, con cronómetro |
 | **Programación** | Se coordina anticipadamente con el Director Académico de Enter Tech School |
 
-> 🔗 **[Rendir el examen de ingreso a Code 201](https://entertechschool.github.io/examen-ingreso/exams/201-entrance/quiz/){:target="_blank"}**
->
-> Ingresa únicamente en la fecha y hora acordadas: el cronómetro corre desde que abres el examen.
+> 📩 El enlace al examen se entrega al momento de rendirlo, en la fecha y hora acordadas. El cronómetro corre desde que lo abres.
 
 ### Temas evaluados
 
