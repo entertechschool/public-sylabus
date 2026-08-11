@@ -9,7 +9,7 @@ Hay dos formas de entrar a **Code 201: Fundamentals of Software Development**.
 
 ## Flujo regular
 
-- Conocimientos básicos de álgebra.
+- Manejo básico de computadora y navegador web.
 - **Code 101: Elementals Software Development** (aprobado).
 
 > ¿Code 101 inconcluso? → **[Flujo Fast — 1 semana](fast-101/)**
