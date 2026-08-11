@@ -24,7 +24,7 @@ Si ya tienes los fundamentos pero no cursaste Code 101, puedes rendir el examen 
 | **Modalidad** | Examen en línea, con cronómetro |
 | **Programación** | Se coordina anticipadamente con el Director Académico de Enter Tech School |
 
-> 📩 El enlace al examen se entrega al momento de rendirlo, en la fecha y hora acordadas. El cronómetro corre desde que lo abres.
+> 📩 El enlace al examen se entrega al momento de rendirlo, en la fecha y hora acordadas.
 
 ### Temas evaluados
 

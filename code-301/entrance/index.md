@@ -25,7 +25,7 @@ Si ya desarrollas aplicaciones web con JavaScript pero no cursaste Code 201, pue
 | **Modalidad** | Examen en línea, con cronómetro |
 | **Programación** | Se coordina anticipadamente con el Director Académico de Enter Tech School |
 
-> 📩 El enlace al examen se entrega al momento de rendirlo, en la fecha y hora acordadas. El cronómetro corre desde que lo abres.
+> 📩 El enlace al examen se entrega al momento de rendirlo, en la fecha y hora acordadas.
 
 ### Temas evaluados
 
