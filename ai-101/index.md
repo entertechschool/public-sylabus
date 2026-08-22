@@ -7,8 +7,8 @@ title: "AI 101 — IA + Automatización"
 
 > Construye soluciones automatizadas que integran inteligencia artificial con herramientas no-code (Make + Gemini + Google Workspace) para resolver problemas reales de tu trabajo — sin escribir una línea de código.
 
-**Duración**: 4 semanas (8 horas en vivo)  
-**Modalidad**: Clases en vivo online (2 sesiones por semana, 60 min cada una)  
+**Duración**: 4 semanas   
+**Modalidad**: Clases en vivo online (2 sesiones por semana)  
 **Dirigido a**: Profesionales en activo, emprendedores o estudiantes avanzados que quieren automatizar tareas repetitivas de su trabajo con IA, sin perfil técnico.  
 **Prerequisitos**: Ninguno. Solo manejo básico de navegación web, correo y Google Drive.
 
@@ -20,8 +20,8 @@ title: "AI 101 — IA + Automatización"
 
 | Tipo de actividad         | Horas |
 |---------------------------|-------|
-| Clases en vivo (8 × 60 min) | 8   |
-| **Total**                 | **8** |
+| Clases en vivo             | 20   |
+| **Total**                 | **20** |
 
 > 🟢 Todo el trabajo se hace **en vivo durante la clase**. No hay tareas ni entregables posteriores a cada sesión.
 
