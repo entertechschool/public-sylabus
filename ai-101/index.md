@@ -3,7 +3,7 @@ layout: default
 title: "AI 101 — IA + Automatización"
 ---
 
-# AI 101 — IA + Automatización No-Code para Profesionales
+# AI 101 — IA Estratégica para Profesionales
 
 > Construye soluciones automatizadas que integran inteligencia artificial con herramientas no-code (Make + Gemini + Google Workspace) para resolver problemas reales de tu trabajo — sin escribir una línea de código.
 
