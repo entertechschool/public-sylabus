@@ -52,7 +52,7 @@ Profundizamos en las tecnologías base de la web moderna. Construyes estructuras
 1. HTML5 Semántico, Accesibilidad y Formularios
 2. CSS Layout con Flexbox
 3. CSS Grid Esencial y Flexbox Profundo
-4. CSS Moderno (Variables) y Git Workflow
+4. CSS Variables, Formularios Validados y Git Workflow
 
 - _Proyecto-integrador_: **Product Landing Page**.
 
@@ -72,7 +72,7 @@ Tu app deja de vivir con datos locales y empieza a traerlos de internet. Aprende
 9. JavaScript Moderno y Render Dinámico
 10. Datos desde la web: fetch, Promesas y JSON
 11. `async/await` y búsqueda en la API
-12. Manejo de Errores y Estados (+ documentación con Markdown)
+12. Manejo de Errores y Estados (cierre del Módulo 3)
 
 - _Proyecto-integrador_: **Pokédex** (consume la PokeAPI).
 
@@ -82,7 +82,7 @@ Construyes una app real con estado central y patrón `render()`. Manipulas texto
 13. Modelado de Datos y Manipulación de Texto
 14. Interacción y Datos Derivados
 15. JSON y LocalStorage
-16. Módulos ESM y Cierre del Proyecto
+16. Módulos (ESM) y Cierre del Proyecto
 
 - _Proyecto-integrador_: **Gestor de Plantillas para WhatsApp**.
 

@@ -92,7 +92,7 @@ Instala el vocabulario y los marcos analíticos que usarás durante todo el boot
 - MFA resistente a phishing: FIDO2, passkeys vs OTP por SMS / TOTP / push
 - Ataques reales: SIM swapping, MFA fatigue, adversary in the middle (caso Uber 2022)
 - Por qué NIST desaconseja SMS desde 2017
-- **Lab:** Sala TryHackMe de bypass de MFA + análisis de un caso de phishing de credenciales aplicado al escenario.
+- **Lab:** Implementación de MFA fuerte (TOTP) + análisis de un caso de phishing de credenciales aplicado al escenario.
 - **Entregable:** Sección 3 del reporte con vector de autenticación atacado y mitigación específica propuesta.
 
 #### Sesión 4: Taxonomía de Amenazas + Vectores + Cyber Kill Chain (150 min, blend)
@@ -182,15 +182,15 @@ Pasas de observar tráfico a diseñar defensa. Aprendes segmentación, DMZ, VLAN
 - Identificación avanzada: escaneos con stealth, detección de C2 por timing analysis
 - Exportación de objetos extraídos del tráfico (archivos, certificados)
 - Captura en entornos de producción: qué se puede y qué no se puede capturar
-- **Lab:** Captura activa desde Kali e interpretación de escaneos y conexiones sospechosas en tiempo real.
-- **Entregable:** Documento técnico con 5 patrones identificados y exportación de IOCs en formato STIX/CSV.
+- **Lab:** Análisis forense del `.pcap` post-compromiso con Follow Stream, Export Objects y timing analysis.
+- **Entregable:** Sección del reporte con reconstrucción de conversaciones, artefactos extraídos con hashes y detección de C2 por timing analysis.
 
-#### Sesión 12: Seguridad en la Nube (AWS/Azure — Shared Responsibility, IAM) (150 min, blend)
+#### Sesión 12: Seguridad en la Nube (AWS/Azure — Shared Responsibility, NSG) (150 min, blend)
 - Modelo de responsabilidad compartida: qué cubre el proveedor y qué el cliente
-- IAM básico en Azure Free Tier y AWS: usuarios, roles, políticas
-- Lectura de archivo `.pcap` con escaneo de puertos + conexión sospechosa
+- Configuración de un Network Security Group (NSG) en Azure con reglas stateful de entrada y salida
+- Conexión de los conceptos cloud con el `.pcap` del Módulo 2: qué NSG habría detenido qué patrón
 - Integración de los aprendizajes del módulo en un reporte formal
-- **Lab:** Análisis de archivo `.pcap` con escaneo de puertos + conexión sospechosa identificada, usando los controles de arquitectura aprendidos.
+- **Lab:** Configuración de un Network Security Group en Azure + consolidación del Reporte de Análisis de Tráfico (Secciones 1–3), usando los controles de arquitectura aprendidos.
 - **Entregable:** **Entregable 2 del portafolio** — Reporte de Análisis de Tráfico con metodología profesional, IOCs extraídos y plan de mitigación.
 
 #### Herramientas del módulo
@@ -264,15 +264,15 @@ Entras al corazón del rol: arquitectura de un SOC real, operación de un SIEM (
 - Wazuh como SIEM open source: arquitectura manager + agente
 - Ingesta de logs, búsquedas con filtros y dashboards básicos
 - Comparación rápida con SIEMs comerciales (Splunk, QRadar, Sentinel)
-- **Lab:** Configuración inicial de Wazuh con ingesta desde VM Windows y búsqueda de eventos específicos.
+- **Lab:** Configuración inicial de Wazuh con verificación de conectividad de ambos agentes (Windows y Ubuntu) y búsqueda de eventos específicos.
 - **Entregable:** Captura del dashboard Wazuh con 3 búsquedas guardadas + explicación de los filtros usados.
 
 #### Sesión 19: Análisis de Logs — Windows Event Logs (IDs Críticos) (150 min, blend)
 - Los Event IDs que todo SOC L1 debe reconocer al instante: 4624, 4625, 4688, 4720
 - Interpretación de logs de autenticación, creación de procesos y administración de cuentas
 - Correlación manual entre eventos relacionados
-- Uso de TryHackMe (Windows Event Logs) como entorno guiado + demo en vivo con Event Viewer
-- **Lab:** Investigación guiada en TryHackMe correlacionando Event IDs críticos + demo del instructor con Event Viewer.
+- Investigación sobre dataset pre-cargado en Wazuh; TryHackMe (Windows Event Logs) como sala de referencia post-clase
+- **Lab:** Investigación guiada sobre dataset pre-cargado en Wazuh correlacionando Event IDs críticos.
 - **Entregable:** Reporte de investigación con 3 eventos sospechosos identificados y su cadena de correlación.
 
 #### Sesión 20: Desarrollo de Reglas de Correlación en SIEM (150 min, blend)
@@ -287,7 +287,6 @@ Entras al corazón del rol: arquitectura de un SOC real, operación de un SIEM (
 - Wazuh Manager + Agentes (SIEM open source, provisto en lab)
 - TryHackMe (sala Windows Event Logs)
 - MITRE ATT&CK Navigator
-- Windows Event Viewer
 
 ---
 
@@ -300,11 +299,11 @@ Profundiza el trabajo de triage: gestión de alertas en volumen, enriquecimiento
 - Comunicación efectiva con L2/L3: qué incluir en un escalamiento
 - Documentación en Jira: ticket bien escrito vs mal escrito
 - Gestión de prioridad según impacto y confianza
-- **Lab:** Clasificación de 15 alertas reales con escalamiento documentado en Jira para las que lo ameriten.
-- **Entregable:** 3 tickets de Jira con narrativa profesional, priorización justificada y evidencia adjunta.
+- **Lab:** Triage de una cola de alertas (mínimo 6) con escalamiento documentado en Jira para la alerta crítica.
+- **Entregable:** Un ticket de escalamiento en Jira con narrativa profesional, priorización justificada y evidencia adjunta.
 
 #### Sesión 22: Indicadores de Compromiso — IOCs (150 min, blend)
-- Enriquecimiento con fuentes públicas: VirusTotal, CriminalIP, AbuseIPDB, Cisco Talos, AlienVault OTX
+- Enriquecimiento con fuentes públicas: VirusTotal, AbuseIPDB, Cisco Talos, AlienVault OTX
 - Cómo combinar múltiples fuentes para aumentar confianza
 - Diferencia entre IOCs frescos y obsoletos
 - Uso de IOCs en reglas de bloqueo preventivo
@@ -330,7 +329,7 @@ Profundiza el trabajo de triage: gestión de alertas en volumen, enriquecimiento
 #### Herramientas del módulo
 - Wazuh (profundización)
 - Jira (tier gratuito)
-- VirusTotal, CriminalIP, AbuseIPDB, Cisco Talos, AlienVault OTX (todas con acceso gratuito)
+- VirusTotal, AbuseIPDB, Cisco Talos, AlienVault OTX (todas con acceso gratuito)
 - MITRE ATT&CK Navigator (modo avanzado)
 
 ---
@@ -340,7 +339,7 @@ Profundiza el trabajo de triage: gestión de alertas en volumen, enriquecimiento
 Aprendes el ciclo oficial de respuesta a incidentes según NIST SP 800-61, a documentar profesionalmente incidentes para un CISO, y los dos marcos más importantes de governance: NIST CSF e ISO 27001. Cierras con políticas de seguridad y continuidad operativa (BCP/DRP).
 
 #### Sesión 25: Ciclo Completo de Respuesta a Incidentes (6 Fases) (150 min, blend)
-- Las 6 fases de NIST SP 800-61: Preparación, Identificación, Contención, Erradicación, Recuperación, Lecciones Aprendidas
+- Las 6 fases de respuesta a incidentes estilo SANS (que desglosan las 4 fases de NIST SP 800-61 Rev. 2): Preparación, Detección y Análisis, Contención, Erradicación, Recuperación, Lecciones Aprendidas
 - Plantillas IR profesionales
 - Errores comunes en cada fase y cómo evitarlos
 - Aplicación del ciclo a incidente entry-level realista
@@ -410,7 +409,7 @@ Cerramos el bootcamp con gestión de riesgos aplicada (CVSS en contexto de negoc
 
 #### Sesión 32: Demo Day — Portafolio y Preparación para Empleo (150 min, blend)
 - Presentación del Incident Response Report completo ante audiencia externa (3–5 reclutadores IT, analistas SOC, alumni de ETS)
-- Estructura de presentación de 10 minutos: problema, análisis, resultados, recomendaciones
+- Estructura de presentación de 3 minutos: problema, análisis, resultados, recomendaciones
 - Networking profesional con los asistentes
 - Optimización del perfil de LinkedIn y plan de búsqueda de empleo
 - **Lab:** Presentación en vivo del IR Report ante panel externo + sesión de Q&A.
@@ -436,12 +435,12 @@ El proyecto final es un **Incident Response Report completo** que integra las 6 
 - Aplicación de las 6 fases del ciclo NIST SP 800-61 con evidencia por fase
 - Mapeo a técnicas MITRE ATT&CK con layer exportado
 - Contextualización de riesgo con CVSS en contexto de negocio
-- Presentación ejecutiva de 10 minutos ante reclutadores IT, analistas SOC senior y alumni
+- Presentación ejecutiva de 3 minutos ante reclutadores IT, analistas SOC senior y alumni
 
 **Entregables:**
-- Incident Response Report formal de 6–8 páginas (PDF listo para portafolio)
+- Incident Response Report formal (PDF listo para portafolio)
 - Layer de MITRE ATT&CK Navigator exportado en JSON
-- Pitch de 10 minutos grabado durante Demo Day (publicable en LinkedIn)
+- Pitch de 3 minutos grabado durante Demo Day (publicable en LinkedIn)
 - Los otros 3 artefactos del portafolio (análisis de phishing, reporte de tráfico, ticket SIEM) generados durante los módulos previos
 
 ---
@@ -476,7 +475,7 @@ Al finalizar el curso tendrás:
 |-----------------------------|--------------|
 | SIEM y monitoreo            | Wazuh (open source, provisto) |
 | Análisis de tráfico         | Wireshark, hping3, Nmap |
-| Análisis de malware / IOCs  | VirusTotal, CyberChef, MXToolbox, Any.run, AlienVault OTX, AbuseIPDB, Cisco Talos, CriminalIP |
+| Análisis de malware / IOCs  | VirusTotal, CyberChef, MXToolbox, Any.run, AlienVault OTX, AbuseIPDB, Cisco Talos |
 | Entornos de laboratorio     | Kali Linux, VirtualBox, Docker (OWASP Juice Shop) |
 | Cloud e identidad           | Azure Free Tier, AWS Free Tier |
 | Vulnerabilidades y web      | OWASP ZAP, CIS Benchmarks, NVD, CISA KEV, CVSS Calculator (FIRST.org) |

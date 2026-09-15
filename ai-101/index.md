@@ -3,7 +3,7 @@ layout: default
 title: "AI 101 — IA + Automatización"
 ---
 
-# AI 101 — IA Estratégica para Profesionales
+# AI 101 — IA + Automatización No-Code para Profesionales
 
 > Construye soluciones automatizadas que integran inteligencia artificial con herramientas no-code (Make + Gemini + Google Workspace) para resolver problemas reales de tu trabajo — sin escribir una línea de código.
 
@@ -20,8 +20,8 @@ title: "AI 101 — IA + Automatización"
 
 | Tipo de actividad         | Horas |
 |---------------------------|-------|
-| Clases en vivo             | 20   |
-| **Total**                 | **20** |
+| Clases en vivo             | 8   |
+| **Total**                 | **8** |
 
 > 🟢 Todo el trabajo se hace **en vivo durante la clase**. No hay tareas ni entregables posteriores a cada sesión.
 
@@ -32,8 +32,8 @@ title: "AI 101 — IA + Automatización"
 Al finalizar este curso, podrás:
 
 1. **Diseñar prompts efectivos para tareas profesionales**
-   - Comprender, sin tecnicismos, cómo funciona un modelo de lenguaje y por qué "alucina"
-   - Aplicar la estructura Rol + Tarea + Contexto + Formato + Restricciones
+   - Entender qué es un prompt y cómo influye en la calidad de la respuesta de la IA
+   - Aplicar la estructura Rol + Tarea + Contexto + Formato
    - Obtener respuestas precisas y reutilizables para tu trabajo diario
 
 2. **Construir automatizaciones no-code en Make**
@@ -67,13 +67,13 @@ En las **sesiones 1 a 6** aprendes cada pieza sobre el caso facturas (con casos 
 
 ## Sílabo del Curso
 
-### Módulo 1: Fundamentos del Sistema
+### Módulo 1: Piezas del Sistema
 
-Aprendes las primeras piezas del sistema: cómo hablarle bien a la IA, cómo conectar tus cuentas Google a una plataforma de automatización, cómo darle "cerebro" de IA a un flujo y cómo convertir su respuesta en datos limpios. Al cerrar el módulo ya tienes un flujo que lee facturas y registra sus datos solo.
+Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA, cómo conectar tus cuentas Google a una plataforma de automatización, cómo darle "cerebro" de IA a un flujo, cómo convertir su respuesta en datos limpios, cómo generar documentos automáticos con plantillas y cómo blindar el flujo contra errores. Al cerrar el módulo ya tienes un sistema de facturas completo y robusto funcionando solo.
 
 #### Sesión 1: Prompts efectivos (60 min, en vivo)
-- Qué es un modelo de lenguaje y por qué "alucina" (explicación no técnica)
-- Anatomía de un prompt profesional: Rol + Tarea + Contexto + Formato + Restricciones
+- Qué es un prompt y cómo influye en la calidad de la respuesta de la IA
+- Anatomía de un prompt profesional: Rol + Tarea + Contexto + Formato
 - Cómo iterar un prompt hasta obtener el resultado exacto que necesitas
 - Casos profesionales: clasificar correos, resumir reuniones, redactar respuestas
 - **Mini-proyecto (en vivo):** diseñar 3 prompts profesionales y probarlos en Gemini
@@ -103,19 +103,6 @@ Aprendes las primeras piezas del sistema: cómo hablarle bien a la IA, cómo con
 - **Mini-proyecto (en vivo):** extracción de ventas desde Gmail → JSON → cada campo en su columna
 - **Entregable:** flujo que convierte texto libre en datos estructurados completos
 
-#### Herramientas del módulo
-- Gemini (chat base para diseñar y probar prompts)
-- Make (plataforma de automatización visual, plan gratuito)
-- Google Cloud Console (proyecto OAuth: Client ID + Secret)
-- Google AI Studio (API key gratuita de Gemini)
-- Google Drive y Google Sheets
-
----
-
-### Módulo 2: Integración y Proyecto
-
-Conviertes las piezas en un sistema completo y profesional: generas documentos automáticos con plantillas, blindas el flujo contra errores y, finalmente, construyes y presentas tu propio sistema aplicado a un caso real de tu trabajo.
-
 #### Sesión 5: Plantillas con placeholders (60 min, en vivo)
 - Qué es una plantilla: formato fijo, datos variables
 - Placeholders `{% raw %}{{variable}}{% endraw %}`: cómo Make rellena cada hueco con un dato real
@@ -131,6 +118,20 @@ Conviertes las piezas en un sistema completo y profesional: generas documentos a
 - Logs y monitoreo: saber qué pasó en cada corrida
 - **Mini-proyecto (en vivo):** flujo completo de facturas (Drive → IA → Sheets → Docs → email) con filtros, router y manejo de errores
 - **Entregable:** sistema de facturas completo y robusto funcionando solo
+
+#### Herramientas del módulo
+- Gemini (chat base para diseñar y probar prompts)
+- Make (escenarios, filtros, routers y manejo de errores, plan gratuito)
+- Google Cloud Console (proyecto OAuth: Client ID + Secret)
+- Google AI Studio (API key gratuita de Gemini)
+- Google Drive, Google Sheets y Gmail
+- Google Docs / Slides (plantillas con placeholders)
+
+---
+
+### Módulo 2: Tu Proyecto
+
+Aplicas todo lo aprendido a un caso real de tu propio trabajo: diagramas tu flujo, construyes una primera versión funcionando con tus datos y la presentas en Demo Day.
 
 #### Sesión 7: Proyecto integrador (60 min, en vivo)
 - Transferir el patrón aprendido a un caso real propio
@@ -149,9 +150,9 @@ Conviertes las piezas en un sistema completo y profesional: generas documentos a
 - **Entregable:** proyecto integrador sustentado en Demo Day
 
 #### Herramientas del módulo
-- Make (Parse JSON, routers, filtros, error handlers)
-- Google Docs / Slides (plantillas con placeholders)
+- Make (Blueprints Export/Import, debug)
 - Gemini API (extracción de datos y generación de contenido)
+- Google Sheets, Docs / Slides y Drive
 - Gmail (entrada de datos y entrega de reportes)
 
 ---

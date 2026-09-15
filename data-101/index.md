@@ -26,7 +26,7 @@ Aprenderás desde los conceptos fundamentales hasta la aplicación práctica en 
 1. **Desarrollar mentalidad analítica y comprensión del ecosistema de datos**  
    - Entender el valor estratégico de los datos en las organizaciones modernas  
    - Distinguir entre dato, información y conocimiento en contextos empresariales  
-   - Reconocer la escalera del valor analítico: descriptiva, predictiva y prescriptiva  
+   - Reconocer la escalera del valor analítico y su nivel descriptivo (los niveles predictivo y prescriptivo se profundizan en cursos avanzados)  
    - Definir KPIs relevantes para un problema de negocio
 
 2. **Extraer insights de bases de datos relacionales usando SQL**  
@@ -53,7 +53,7 @@ Aprenderás desde los conceptos fundamentales hasta la aplicación práctica en 
 
 1. **Introducción al Análisis de Datos** (180 min, blend)  
    - Diferencia entre dato, información y conocimiento  
-   - Escalera del valor de la analítica: descriptiva, predictiva, prescriptiva  
+   - Escalera del valor de la analítica: nivel descriptivo (predictivo y prescriptivo se ven en cursos avanzados)  
    - Toma de decisiones basada en datos vs. intuición  
    - Definición de KPIs para un problema de negocio  
    - Pensar como analista en Google Sheets: filtros (simples y múltiples), ordenamiento y agregaciones básicas, como puente hacia SQL  
@@ -61,25 +61,24 @@ Aprenderás desde los conceptos fundamentales hasta la aplicación práctica en 
 
 2. **Del origen al análisis: Modelo Entidad-Relación** (180 min, blend)  
    - Origen de datos en procesos y sistemas operacionales  
-   - Bases de datos relacionales y proceso ETL  
+   - Bases de datos relacionales  
    - Modelo entidad-relación: entidades, atributos, cardinalidades  
    - Tipos de datos: texto, número y fecha (introducción)  
-   - Calidad de datos: completitud, consistencia, puntualidad  
    - Laboratorio: diagrama ER del dataset SupermercadoSQL en Draw.io
 
-3. **Lenguaje SQL - Parte 1: Consultas básicas** (180 min, blend)  
+3. **Introducción a SQL - Primeras Consultas** (180 min, blend)  
    - Introducción a SQL y uso de SQLite Online  
    - Sentencias básicas: SELECT, FROM, WHERE, ORDER BY, LIMIT  
    - Filtros combinados con AND, OR y búsqueda con LIKE  
    - Buenas prácticas para consultas legibles  
+   - Exportación de resultados a CSV  
    - Laboratorio: 10+ consultas SQL sobre el dataset SupermercadoSQL
 
-4. **Lenguaje SQL - Parte 2: Agregaciones + Proyecto Integrador** (180 min, blend)  
+4. **SQL Agregaciones + Proyecto Integrador** (180 min, blend)  
    - De la tabla dinámica (Excel) al GROUP BY (SQL): mismo concepto, dos herramientas  
    - Funciones de agregación: SUM, COUNT, AVG, MAX, MIN  
    - Agrupación con GROUP BY y filtrado de grupos con HAVING  
    - Generación de métricas clave de negocio  
-   - Exportación de resultados a CSV  
    - Laboratorio: proyecto integrador — Scorecard de Auditoría con 14 KPIs de supermercado
 
 #### Herramientas por aprender:
@@ -101,34 +100,34 @@ Aprenderás desde los conceptos fundamentales hasta la aplicación práctica en 
    - Perfilado: tipos de variables, nulos, duplicados, outliers  
    - Estadística descriptiva: media, mediana, moda, desviación estándar  
    - Detección de problemas de calidad de datos  
-   - Laboratorio: perfil completo de SupermercadoSQL + 3 hallazgos documentados
+   - Laboratorio: perfil completo del dataset Titanic + 3 hallazgos documentados
 
-7. **Visualización con Matplotlib** (180 min, blend)  
+7. **Visualización — Una Imagen Vale Más que 1,000 Filas** (180 min, blend)  
    - Gráficos que responden preguntas de negocio  
-   - Tipos de gráficos: barras, líneas, pastel, histogramas, boxplots  
+   - Tipos de gráficos: barras (verticales y horizontales), histogramas y gráficos de torta  
    - Elección del gráfico correcto según el tipo de dato  
    - Personalización: títulos, ejes, colores y etiquetas  
-   - Laboratorio: 5 gráficos de negocio sobre SupermercadoSQL
+   - Laboratorio: 4 gráficos de negocio sobre el dataset Titanic (+ 1 gráfico libre como reto post-clase)
 
 8. **Proyecto Integrador del Módulo 2** (180 min, blend)  
    - Integración de SQL + Pandas + Matplotlib  
    - Construcción de un reporte analítico completo  
    - Comunicación de hallazgos a audiencias no técnicas  
    - Buenas prácticas de documentación de notebooks  
-   - Laboratorio: reporte ejecutivo para junta directiva del supermercado
+   - Laboratorio: reporte ejecutivo para el directorio de la White Star Line (dataset Titanic)
 
 #### Herramientas por aprender:
 - Google Colab (sin instalación)
-- Python (Pandas, NumPy)
+- Python (Pandas)
 - Matplotlib
 
 ### Módulo 3: Visualización y Storytelling
 
-9. **Power BI: Primeros Pasos** (180 min, blend)  
+9. **Microsoft Power BI — Tu Primer Dashboard Profesional** (180 min, blend)  
    - Business Intelligence (BI): qué es y por qué importa  
    - Power BI Desktop: instalación y primeros pasos  
    - Carga de datasets CSV y configuración de tipos de columna  
-   - Construcción de visuales básicos (barras, líneas, tarjetas, tablas)  
+   - Construcción de visuales básicos (barras, torta, tabla, barras verticales)  
    - Laboratorio: primer reporte con 4 visuales sobre el dataset Olympics 2000-2016
 
 10. **Data Storytelling: Del Dato a la Historia** (180 min, blend)  
@@ -140,12 +139,12 @@ Aprenderás desde los conceptos fundamentales hasta la aplicación práctica en 
 
 11. **Dashboards con Historia** (180 min, blend)  
     - Diseño de dashboards de 2+ páginas con navegación  
-    - Interactividad: filtros, segmentadores y drill-down  
+    - Interactividad: filtros y segmentadores (slicers)  
     - Integración de storytelling en el diseño del dashboard  
     - Buenas prácticas: foco, consistencia y claridad  
     - Laboratorio: dashboard interactivo multi-página sobre Olympics
 
-12. **Proyecto Final + Presentación** (180 min, blend)  
+12. **Proyecto Final — Informe al Directorio del COI** (180 min, blend)  
     - Presentación del proyecto final: "Informe al Directorio del COI"  
     - Evaluación de storytelling, técnica y visualización  
     - Feedback cruzado entre pares  
@@ -154,26 +153,24 @@ Aprenderás desde los conceptos fundamentales hasta la aplicación práctica en 
 
 #### Herramientas por aprender:
 - Microsoft Power BI Desktop
+- Google Slides
 - Técnicas de storytelling con datos
 
 ---
 
 ## Proyecto Final del Curso
 
-### **Informe Ejecutivo con Dashboard Interactivo**
+### **Informe al Directorio del COI**
 
-Proyecto final que integra todo el flujo analítico aprendido durante el curso:
+Proyecto final que cierra el Módulo 3 con una presentación ejecutiva sobre el dataset Olympics 2000-2016:
 
 **Componentes del proyecto:**
-- **Extracción de datos**: Consultas SQL sobre una base de datos relacional (SQLite)
-- **Análisis exploratorio**: Perfilado, estadística descriptiva y detección de patrones en Python/Pandas
-- **Visualización técnica**: Gráficos con Matplotlib para explorar hallazgos
-- **Dashboard ejecutivo**: Dashboard interactivo multi-página en Power BI
-- **Storytelling**: Narrativa estructurada para comunicar insights a una audiencia ejecutiva
-- **Presentación**: Exposición oral de 5-10 minutos con recomendaciones accionables
+- **Elección de pregunta**: 1 de 4 preguntas de negocio sobre el dataset Olympics 2000-2016
+- **Storytelling**: Narrativa estructurada con los frameworks CHIR y Pirámide de Minto
+- **Dashboard ejecutivo**: Dashboard interactivo en Power BI con filtros y KPIs
+- **Presentación**: Exposición oral de 5 minutos con recomendaciones accionables y Q&A
 
 **Entregables:**
-- Consultas SQL documentadas con sus resultados
-- Notebooks de Python con análisis exploratorio y visualizaciones
-- Dashboard interactivo en Power BI
-- Presentación ejecutiva con storytelling de datos
+- Deck de 5-8 slides en Google Slides con hallazgos (CHIR) y recomendaciones (Minto)
+- Dashboard interactivo en Power BI (mínimo 1 página) con filtros y KPIs
+- Presentación ejecutiva oral con storytelling de datos

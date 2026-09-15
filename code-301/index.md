@@ -5,7 +5,7 @@ title: "Code 301 — Professional"
 
 # Code 301 - Professional Software Development
 
-**Duración**: 13 semanas (117 horas)  
+**Duración**: 14 semanas (117 horas)  
 **Modalidad**: 
    - Clases en vivo online (2 veces por semana, 8:00 PM - 10:30 PM)
    - 26 sesiones: 5 módulos técnicos de 4 clases + Proyecto Final de 6 clases
@@ -28,7 +28,7 @@ Al terminar el curso, habrás logrado agregar varios proyectos profesionales a t
 | Actividades asíncronas     | 52     |
 | **Total**                  | **117**|
 
-**Total: 117 horas** ~ 13 semanas
+**Total: 117 horas** ~ 14 semanas
 
 > 🟡 Requiere de una inversión de 9 horas por semana en total.
 
@@ -108,7 +108,7 @@ Migras a TypeScript y a Next.js 15. Cambias el cliente de datos de `supabase-js`
 ### ▶︎ Módulo 5: Autenticación, Roles y Middleware
 Construyes seguridad de nivel profesional. Implementas OAuth2 con NextAuth.js v5, persistes sesiones en base de datos con el Prisma Adapter, modelas roles y verificas autorización en Server Components, y proteges rutas con middleware manteniendo defense in depth.
 
-17. NextAuth.js v5 y OAuth2 (Google / GitHub)
+17. NextAuth.js v5 y OAuth2 (GitHub)
 18. Persistencia de sesiones con Prisma Adapter
 19. Modelado de roles y autorización en Server Components
 20. Middleware de protección y security review — **lab calificado**

@@ -21,11 +21,12 @@ Un programa intensivo donde aprendes HTML, CSS y JavaScript construyendo un proy
 
 ## 🚀 Lo que vas a construir
 
-Tu propio sitio web profesional de una página con cinco secciones:
+Tu propio sitio web profesional de una página con seis secciones:
 
 - **Hero** — Tu nombre, título profesional y una imagen que te represente
 - **About** — Una biografía breve que cuente quién eres y hacia dónde vas
 - **Skills** — Cards visuales con las tecnologías y habilidades que dominas
+- **Projects** — Cards con tus proyectos y enlaces a cada uno
 - **Contact** — Un formulario de contacto funcional con validación en tiempo real
 - **Footer** — Tus enlaces a redes sociales y copyright
 
@@ -44,19 +45,19 @@ Tecnologías: HTML semántico, CSS base, Git
 
 ### Día 2: Que se vea profesional en cualquier pantalla
 
+- Refactorizas los colores repetidos con CSS Variables (custom properties)
 - Organizas el layout con Flexbox: navegación, cards y footer en columnas
 - Agregas efectos hover y transiciones suaves a botones y cards
 - Implementas media queries para que tu portfolio se adapte a móvil y desktop
 - Verificas el resultado en Chrome DevTools simulando diferentes pantallas
 
-Tecnologías: Flexbox, CSS responsive, media queries
+Tecnologías: CSS Variables, Flexbox, CSS responsive, media queries
 
 ### Día 3: Dale vida con JavaScript
 
 - Conectas tu primer archivo JavaScript y pruebas que funciona
 - Programas validación de formulario: campos vacíos, formato de email, mensajes de error
 - Construyes un menú hamburguesa que se abre y cierra al tocar
-- Implementas scroll suave para que la navegación fluya entre secciones
 
 Tecnologías: JavaScript, DOM, eventos, validación
 
@@ -121,7 +122,7 @@ El Día 5 (viernes) es un día de entrega asincrónica. Puedes seguir trabajando
 
 ### ¿Cómo se evalúa?
 
-Con una rúbrica clara de 4 criterios: estructura y Git, diseño responsive, interactividad con JavaScript, y publicación. Cada criterio vale 25 puntos sobre un total de 100. Conoces los criterios desde el Día 1 para que sepas exactamente qué se espera.
+Con una rúbrica clara de 5 criterios: estructura y Git, diseño responsive, interactividad con JavaScript, y publicación. Cada criterio vale 20 puntos sobre un total de 100. Conoces los criterios desde el Día 1 para que sepas exactamente qué se espera.
 
 ---
 
