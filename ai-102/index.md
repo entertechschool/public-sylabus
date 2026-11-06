@@ -14,7 +14,11 @@ title: "AI 102 — IA Aplicada a la Gestión Comercial"
 - **Presencial** en Av. Santa Cruz 381, Miraflores: 2 sábados de 9:00 AM a 2:00 PM
 
 **Dirigido a**: Personas que atienden clientes o venden por canales digitales como WhatsApp: asesores comerciales, equipos de ventas y atención al cliente, emprendedores y dueños de negocio.  
-**Prerequisitos**: Ninguno en programación ni en IA. Necesitas una cuenta gratuita de ChatGPT, una cuenta de Google (Docs y Sheets) y la información comercial de tu negocio: productos o servicios, precios y condiciones de venta.
+**Prerequisitos**: Ninguno en programación ni en IA. Solo necesitas:
+
+- Una cuenta gratuita de ChatGPT
+- Una cuenta de Google (Docs y Sheets)
+- La información comercial de tu negocio: productos o servicios, precios y condiciones de venta
 
 > 🟢 No se requiere experiencia en programación ni en IA.
 
