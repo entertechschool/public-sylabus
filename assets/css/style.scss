@@ -252,6 +252,12 @@ p {
   line-height: 1.73;
 }
 
+/* Párrafo que introduce una lista: sin el espacio de 20px del tema.
+   Uso en Markdown: línea {: .pegado} justo debajo del párrafo */
+p.pegado {
+  margin-bottom: 4px;
+}
+
 /* --- LINKS --- */
 a {
   color: #2563eb;

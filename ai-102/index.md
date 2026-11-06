@@ -9,12 +9,14 @@ title: "AI 102 — IA Aplicada a la Gestión Comercial"
 
 **Duración**: 10 horas  
 **Modalidad**: elige una de dos.
+{: .pegado}
 
 - **Online en vivo** por Teams: 4 sesiones de 2.5 horas, martes y jueves de 8:00 PM a 10:30 PM
 - **Presencial** en Av. Santa Cruz 381, Miraflores: 2 sábados de 9:00 AM a 2:00 PM
 
 **Dirigido a**: Personas que atienden clientes o venden por canales digitales como WhatsApp: asesores comerciales, equipos de ventas y atención al cliente, emprendedores y dueños de negocio.  
 **Prerequisitos**: Ninguno en programación ni en IA. Solo necesitas:
+{: .pegado}
 
 - Una cuenta gratuita de ChatGPT
 - Una cuenta de Google (Docs y Sheets)
