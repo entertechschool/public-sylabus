@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "AI 103 — Automatización con Claude Cowork"
+title: "Curso — Automatización con Claude Cowork"
 ---
 
-# AI 103 — Automatización con Claude Cowork
+# Curso — Automatización con Claude Cowork
 
 > Tres flujos de trabajo que diseñas con tu criterio profesional y Claude ejecuta: reciben tu contexto, tus documentos o tus datos y devuelven propuestas, reportes y análisis terminados, listos para entregar en Google Docs o Notion — con tu trabajo real desde la primera sesión.
 
@@ -237,9 +237,9 @@ Al finalizar el curso tendrás:
 | Práctica     | Videos grabados                           | 8 sesiones en vivo con laboratorio individual acompañado      |
 | Post-curso   | Recuerdas lo que aprendiste si practicas  | El flujo queda guardado: lo activas cuando lo necesitas       |
 | Demo Day     | Presentación de lo que aprendiste         | Documento final generado en vivo en 10 minutos                |
-| Continuidad  | Sin ruta siguiente                        | Ruta AI: AI 101 (automatización) y AI 103 (flujos con Claude) |
+| Continuidad  | Sin ruta siguiente                        | Ruta de IA: automatización no-code y flujos con Claude        |
 
-> AI 101 y AI 103 son complementarios y ninguno es requisito del otro. AI 101 construye sistemas automatizados que corren solos con Make y Gemini. AI 103 construye flujos de trabajo cognitivo con Claude que activas cuando los necesitas y producen un documento terminado en minutos.
+> Este curso y el de Automatización No-Code con IA son complementarios y ninguno es requisito del otro. El de Automatización No-Code construye sistemas automatizados que corren solos con Make y Gemini. Este construye flujos de trabajo cognitivo con Claude que activas cuando los necesitas y producen un documento terminado en minutos.
 
 ---
 
