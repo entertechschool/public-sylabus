@@ -20,8 +20,8 @@ title: "AI 101 — IA + Automatización"
 
 | Tipo de actividad         | Horas |
 |---------------------------|-------|
-| Clases en vivo             | 8   |
-| **Total**                 | **8** |
+| Clases en vivo             | 20  |
+| **Total**                 | **20** |
 
 > 🟢 Todo el trabajo se hace **en vivo durante la clase**. No hay tareas ni entregables posteriores a cada sesión.
 
@@ -71,7 +71,7 @@ En las **sesiones 1 a 6** aprendes cada pieza sobre el caso facturas (con casos 
 
 Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA, cómo conectar tus cuentas Google a una plataforma de automatización, cómo darle "cerebro" de IA a un flujo, cómo convertir su respuesta en datos limpios, cómo generar documentos automáticos con plantillas y cómo blindar el flujo contra errores. Al cerrar el módulo ya tienes un sistema de facturas completo y robusto funcionando solo.
 
-#### Sesión 1: Prompts efectivos (60 min, en vivo)
+#### Sesión 1: Prompts efectivos (2.5 horas, en vivo)
 - Qué es un prompt y cómo influye en la calidad de la respuesta de la IA
 - Anatomía de un prompt profesional: Rol + Tarea + Contexto + Formato
 - Cómo iterar un prompt hasta obtener el resultado exacto que necesitas
@@ -79,7 +79,7 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 - **Mini-proyecto (en vivo):** diseñar 3 prompts profesionales y probarlos en Gemini
 - **Entregable:** 3 prompts efectivos listos para reutilizar en tu trabajo
 
-#### Sesión 2: Make 101 + Google Cloud (60 min, en vivo)
+#### Sesión 2: Make 101 + Google Cloud (2.5 horas, en vivo)
 - Qué es Make: escenarios, módulos, operaciones y conexiones
 - Triggers: cuándo usar Watch (en tiempo real) vs Schedule (por lotes)
 - OAuth y Google Cloud Project: conectar Google con Client ID + Secret
@@ -87,7 +87,7 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 - **Mini-proyecto (en vivo):** registrar facturas automáticamente de Drive a un Sheet
 - **Entregable:** tu primer escenario de Make funcionando end-to-end
 
-#### Sesión 3: API key de Gemini (60 min, en vivo)
+#### Sesión 3: API key de Gemini (2.5 horas, en vivo)
 - Qué es una API y cómo Make habla con la IA (sin jerga técnica)
 - Obtener una API key gratuita de Gemini en Google AI Studio
 - Agregar el módulo de Gemini a un flujo y enviarle un prompt
@@ -95,7 +95,7 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 - **Mini-proyecto (en vivo):** la factura pasa por Gemini → extrae el proveedor → nueva columna en el Sheet
 - **Entregable:** flujo con IA integrada extrayendo datos de documentos reales
 
-#### Sesión 4: JSON + Parse JSON (60 min, en vivo)
+#### Sesión 4: JSON + Parse JSON (2.5 horas, en vivo)
 - Qué es JSON y por qué la IA responde mejor en ese formato
 - El módulo Parse JSON y el Data Structure: de texto a variables que el flujo entiende
 - Mapear cada campo extraído a su columna correspondiente
@@ -103,7 +103,7 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 - **Mini-proyecto (en vivo):** extracción de ventas desde Gmail → JSON → cada campo en su columna
 - **Entregable:** flujo que convierte texto libre en datos estructurados completos
 
-#### Sesión 5: Plantillas con placeholders (60 min, en vivo)
+#### Sesión 5: Plantillas con placeholders (2.5 horas, en vivo)
 - Qué es una plantilla: formato fijo, datos variables
 - Placeholders `{% raw %}{{variable}}{% endraw %}`: cómo Make rellena cada hueco con un dato real
 - Dar formato a los datos antes de inyectarlos (fechas, montos, porcentajes)
@@ -111,7 +111,7 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 - **Mini-proyecto (en vivo):** reporte mensual de facturas: Sheet → Slide con plantilla → Drive/email
 - **Entregable:** reporte profesional generado automáticamente desde tus datos
 
-#### Sesión 6: Flujo end-to-end robusto (60 min, en vivo)
+#### Sesión 6: Flujo end-to-end robusto (2.5 horas, en vivo)
 - Watch vs Schedule: disparar por evento o a hora fija
 - Filtros y routers: que el flujo decida solo qué procesar y por qué ruta
 - Manejo de errores: que el flujo no muera en silencio (handlers, reintentos, alertas)
@@ -133,7 +133,7 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 
 Aplicas todo lo aprendido a un caso real de tu propio trabajo: diagramas tu flujo, construyes una primera versión funcionando con tus datos y la presentas en Demo Day.
 
-#### Sesión 7: Proyecto integrador (60 min, en vivo)
+#### Sesión 7: Proyecto integrador (2.5 horas, en vivo)
 - Transferir el patrón aprendido a un caso real propio
 - Diagramar la arquitectura antes de construir: problema → solución → módulos
 - Adaptar Sheet, prompts y plantillas a tu industria
@@ -141,7 +141,7 @@ Aplicas todo lo aprendido a un caso real de tu propio trabajo: diagramas tu fluj
 - **Mini-proyecto (en vivo):** tu propio flujo v1 funcionando con datos reales de tu trabajo
 - **Entregable:** sistema automatizado propio resolviendo un caso real
 
-#### Sesión 8: Exposición / Demo Day (60 min, en vivo)
+#### Sesión 8: Exposición / Demo Day (2.5 horas, en vivo)
 - Estructura de una demo efectiva en 5 minutos: caso → demo → resultados → aprendizajes
 - Preparar la demo en vivo (con plan de respaldo si algo falla)
 - Comunicar resultados: lo cuantitativo (tiempo, costo, items) + lo cualitativo
