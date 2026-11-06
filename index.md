@@ -18,5 +18,6 @@ Sílabos de nuestros cursos. Elige un programa:
 - 🔐 **[Cyber 201 — Fundamentals](cyber-201/)**
 - 🔐 **[Cyber 301 — Professional](cyber-301/)**
 - 🤖 **[AI 101 — IA + Automatización](ai-101/)**
-- 🤖 **[AI 102 — Automatización con Claude Cowork](ai-102/)**
+- 🤖 **[AI 102 — IA Aplicada a la Gestión Comercial](ai-102/)**
+- 🤖 **[AI 103 — Automatización con Claude Cowork](ai-103/)**
 - 🤖 **[IA para Negocios](ai-negocios/)**

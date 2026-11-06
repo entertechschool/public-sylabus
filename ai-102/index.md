@@ -1,204 +1,153 @@
 ---
 layout: default
-title: "AI 102 — Automatización con Claude Cowork"
+title: "AI 102 — IA Aplicada a la Gestión Comercial"
 ---
 
-# AI 102 — Automatización con Claude Cowork
+# AI 102 — IA Aplicada a la Gestión Comercial
 
-> Tres flujos de trabajo que diseñas con tu criterio profesional y Claude ejecuta: reciben tu contexto, tus documentos o tus datos y devuelven propuestas, reportes y análisis terminados, listos para entregar en Google Docs o Notion — con tu trabajo real desde la primera sesión.
+> Atiende consultas, responde objeciones, arma cotizaciones y haz seguimiento a tus clientes con ayuda de IA generativa, usando la información real de tu negocio y revisando cada mensaje antes de enviarlo.
 
-> 🟢 **Qué significa automatizar aquí:** configuras cada flujo una sola vez (instrucción, archivos de referencia y formato de salida) y desde entonces lo activas cuando lo necesitas, con datos nuevos, y obtienes el documento terminado en minutos. Tú decides qué se produce y validas el resultado; Claude hace el trabajo de redacción y análisis. No requiere programación ni integraciones entre sistemas.
-
-**Duración**: 4 semanas  
-**Modalidad**: Clases en vivo online (2 sesiones por semana de 2.5 horas, 8:00 PM a 10:30 PM) + trabajo asíncrono  
-**Dirigido a**: Profesionales de cualquier área (marketing, ventas, RR.HH., administración, legal, operaciones) que producen propuestas, reportes, correos o análisis en su trabajo y quieren que Claude los haga con su criterio y su formato.  
-**Prerequisitos**: Ninguno en programación ni en IA. Necesitas una suscripción a Claude Pro activa desde la sesión 1, una cuenta de Google (Docs y Drive) o Notion, y tareas reales de tu trabajo para traer a clase.
+**Duración**: 10 horas  
+**Modalidad**: elige una de dos. Online en vivo por Teams (4 sesiones de 2.5 horas, martes y jueves de 8:00 PM a 10:30 PM) o presencial en Av. Santa Cruz 381, Miraflores (2 sábados de 9:00 AM a 2:00 PM)  
+**Dirigido a**: Personas que atienden clientes o venden por canales digitales como WhatsApp: asesores comerciales, equipos de ventas y atención al cliente, emprendedores y dueños de negocio.  
+**Prerequisitos**: Ninguno en programación ni en IA. Necesitas una cuenta gratuita de ChatGPT, una cuenta de Google (Docs y Sheets) y la información comercial de tu negocio: productos o servicios, precios y condiciones de venta.
 
 > 🟢 No se requiere experiencia en programación ni en IA.
 
-> En 8 sesiones construirás tres herramientas propias: un Generador de Comunicaciones, un Analizador Documental y un Reporte de Inteligencia a partir de Datos. Las tres viven en tu Claude Pro, funcionan con tus datos reales y las presentas en vivo en el Demo Day.
+> En 10 horas armas tu Kit de Atención Comercial con IA y lo pones a prueba en una simulación con tres situaciones de venta.
 
 ## Inversión de tiempo
 
-| Tipo de actividad        | Horas     |
-|--------------------------|-----------|
-| Clases en vivo           | 20        |
-| Trabajo asíncrono        | 12 – 16   |
-| **Total**                | **32 – 36** |
+| Tipo de actividad                    | Horas  |
+|--------------------------------------|--------|
+| Clases en vivo (online o presencial) | 10     |
+| **Total**                            | **10** |
 
-> 🟢 No hay tareas separadas. El trabajo asíncrono (1.5 a 2 horas por sesión) es para terminar el laboratorio de esa misma sesión con más casos reales de tu trabajo.
+> 🟢 Todo el trabajo se hace **durante la clase**. Más del 80 % del tiempo es práctica y cada sesión termina con un avance de tu kit. Lo único que preparas por tu cuenta es la información de tu negocio que traes a clase.
 
 ---
 
 ## 🎯 Resultados de aprendizaje
 
-Al finalizar este curso, podrás:
+Al finalizar este taller, podrás:
 
-1. **Instruir a Claude con precisión para obtener calidad profesional**
-   - Entender, sin tecnicismos, cómo funciona un modelo de lenguaje y por qué produce respuestas genéricas cuando se le habla de forma genérica
-   - Aplicar la anatomía de un prompt profesional: Rol + Contexto + Tarea + Formato de salida + Restricciones
-   - Detectar cuándo Claude alucina y distinguir qué trabajo delegar y qué trabajo requiere tu criterio
+1. **Preparar el contexto de tu negocio para trabajar con IA**
+   - Ordenar productos, servicios, precios, condiciones de venta y perfil de cliente en una ficha de contexto
+   - Escribir prompts comerciales con rol, contexto del negocio, objetivo, información de referencia, instrucciones y formato de respuesta
+   - Distinguir qué tareas puede asumir un asistente de IA y cuáles necesitan supervisión de una persona
 
-2. **Construir flujos de trabajo reutilizables en Claude Pro**
-   - Escribir instrucciones de sistema que fijan comportamiento, tono, formato y límites de cada flujo
-   - Cargar archivos de referencia en Claude Projects para que el flujo trabaje con el contexto de tu empresa
-   - Aplicar técnicas de prompt engineering: ejemplos de referencia, razonamiento explícito, restricciones de formato
+2. **Responder consultas y objeciones con mensajes personalizados**
+   - Redactar respuestas para WhatsApp claras, personalizadas y con un siguiente paso para el cliente
+   - Detectar información inventada, precios incorrectos y promesas no autorizadas antes de enviar
+   - Ajustar el prompt según el resultado que obtienes
 
-3. **Producir documentos terminados en menos de 20 minutos**
-   - Generar propuestas, reportes, correos difíciles y resúmenes ejecutivos con tu voz y tu formato
-   - Analizar contratos, informes y políticas con tus propios criterios y obtener un reporte de hallazgos
-   - Convertir datos de ventas, métricas o encuestas en un reporte ejecutivo con alertas y recomendaciones
-   - Exportar cada documento a Google Docs o Notion con estructura consistente
+3. **Elaborar cotizaciones y dar seguimiento**
+   - Armar una cotización a partir de datos verificados y cotejarla con tu lista de precios
+   - Escribir mensajes de seguimiento según el tipo de cliente: interesado, indeciso o que dejó de responder
+   - Registrar oportunidades y seguimientos en Google Sheets
 
-4. **Refinar, documentar y presentar tu sistema de flujos**
-   - Iterar sobre el output de Claude hasta que el documento se use sin reescritura significativa
-   - Documentar cada flujo con su instrucción, sus iteraciones y su output de referencia
-   - Presentar los tres flujos en vivo en el Demo Day, generando los documentos en tiempo real
+4. **Aplicar tu kit en situaciones de atención**
+   - Organizar tus recursos en un kit que puedes reutilizar en tu trabajo
+   - Resolver tres situaciones comerciales en una simulación de atención a clientes
+   - Cuidar los datos personales de tus clientes y ser transparente sobre el uso de IA
 
 ---
 
-## Los tres productos que construyes
+## El producto que construyes
 
-Cada producto tiene dos capas: el **flujo** (lo que configuras en Claude Pro) y el **documento** (lo que sale al mundo en Google Docs o Notion).
+Tu **Kit de Atención Comercial con IA** se arma con la información de tu propio negocio y avanza sesión a sesión.
 
-| Producto | Qué hace | Tiempo antes | Con el flujo |
-|----------|----------|--------------|--------------|
-| **P1 · Generador de Comunicaciones** | Recibe una descripción breve del contexto y produce propuestas comerciales, reportes de gestión, correos difíciles o resúmenes ejecutivos con tu tono y tu formato | 45 – 90 min por documento | 10 – 15 min |
-| **P2 · Analizador Documental** | Recibe un contrato, informe o política, aplica tus criterios de análisis y entrega un reporte con resumen ejecutivo, hallazgos críticos, riesgos y recomendaciones | 2 – 4 horas por documento | 10 – 20 min |
-| **P3 · Reporte de Inteligencia a partir de Datos** | Recibe tus datos de ventas, métricas, encuestas o indicadores y genera un reporte ejecutivo con patrones, comparación de periodos, alertas y recomendaciones | 2 – 5 horas por semana | 10 – 20 min |
+| Componente | Cantidad | Sesión online |
+|------------|----------|---------------|
+| Ficha de contexto comercial con al menos 5 datos de tu negocio | 1 | Sesión 1 |
+| Prompts reutilizables | 2 | Sesión 1 |
+| Respuestas a consultas u objeciones, revisadas y validadas | 5 | Sesión 2 |
+| Cotización validada contra tu lista de precios | 1 | Sesión 3 |
+| Mensajes de seguimiento | 3 | Sesión 3 |
+| Registro de seguimiento en Google Sheets | 1 | Sesión 3 |
+| Kit integrado y simulación de 3 situaciones comerciales | 1 | Sesión 4 |
 
-**El dolor de hoy:** usas Claude de forma ocasional. Abres una conversación, pides algo, obtienes un resultado genérico, lo reescribes casi entero y cierras. Cada vez empiezas de cero.
-
-**Lo que construyes:** tres flujos guardados en tu Claude Pro, con tu instrucción, tus archivos de referencia y tu formato de salida. Los activas cuando los necesitas, con datos nuevos, y obtienes el documento terminado en minutos. Con el mismo nivel de calidad cada vez.
-
-En las **sesiones 1 y 2** aprendes a instruir a Claude y construyes tu primer flujo base. En las **sesiones 3 a 6** construyes los tres productos, uno por uno, con tus casos reales. En las **sesiones 7 y 8** refinas los tres flujos, los integras y presentas tu portafolio en el **Demo Day**.
+En cada sesión trabajas primero con el caso real de una empresa aliada, guiado por el instructor, y después aplicas lo mismo a tu negocio.
 
 ---
 
 ## Sílabo del Curso
 
-### Módulo 1: Fundamentos — Cómo hablarle a Claude para obtener calidad profesional
+Las cuatro sesiones siguientes corresponden a la modalidad online. En la modalidad presencial se ven los mismos contenidos en dos sábados: el **sábado 1** cubre las sesiones 1 y 2, y el **sábado 2** cubre las sesiones 3 y 4. Los resultados, el kit, la rúbrica y la simulación son los mismos en ambas modalidades.
 
-Entiendes por qué Claude responde de forma genérica y aprendes a instruirlo con precisión. Al cerrar el módulo tienes tu Proyecto de Claude configurado, tu primer flujo base funcionando con una tarea real de tu trabajo y una biblioteca de prompts iniciada.
+### Módulo 1: Atención comercial con IA
 
-#### Sesión 1: Cómo piensa Claude, y por qué tus prompts dan resultados genéricos (150 min, en vivo)
-- Qué es un modelo de lenguaje en términos prácticos, sin teoría innecesaria
-- Por qué el contexto lo es todo: Claude no sabe quién eres, qué haces ni para quién trabajas
-- Anatomía de un prompt profesional: Rol + Contexto + Tarea + Formato de salida + Restricciones
-- Por qué Claude alucina y cómo detectarlo con confianza
-- Introducción a Claude Projects: la diferencia entre usar Claude y tener un flujo
-- Visión general de los tres productos que construirás en el curso
-- **Laboratorio (en vivo):** tomas una tarea real de tu trabajo y construyes 3 versiones del mismo prompt (básico, intermedio y con estructura completa); comparas los outputs y configuras tu Proyecto de Claude del curso
-- **Entregable:** brief personal de tu trabajo y tus 3 tareas de mayor consumo de tiempo, Proyecto de Claude configurado y 3 versiones de prompt documentadas con sus outputs
+Ordenas la información de tu negocio, aprendes a darle instrucciones a la IA y respondes consultas y objeciones de clientes. Al cerrar el módulo tienes tu ficha de contexto, 2 prompts y 5 respuestas validadas.
 
-#### Sesión 2: Instrucciones de sistema y refinamiento iterativo (150 min, en vivo)
-- Qué es una instrucción de sistema y cómo Claude la interpreta
-- La diferencia entre un prompt de tarea y una instrucción de flujo reutilizable
-- Técnicas de prompt engineering aplicadas: ejemplos de referencia (few-shot), razonamiento explícito, restricciones de formato
-- Cómo cargar archivos de referencia en Claude Projects y cómo el flujo los usa
-- El ciclo de refinamiento: evaluar el output, identificar el problema, ajustar, iterar
-- Cómo pedirle a Claude que critique su propio output antes de entregarlo
-- **Laboratorio (en vivo):** construyes la instrucción de sistema de tu Flujo Base (el producto que más necesitas), cargas un archivo de referencia y lo pruebas con 5 tareas reales hasta obtener un output que usarías sin reescritura
-- **Entregable:** instrucción de sistema del Flujo Base en versión final, registro de refinamiento con 2 o 3 iteraciones documentadas y biblioteca de prompts con mínimo 8 entradas
+#### Sesión 1: Preparación del contexto comercial y uso de IA (2.5 horas, en vivo)
+- Qué puede hacer un asistente de IA en atención comercial, sus limitaciones y qué tareas requieren supervisión humana
+- Estructura del prompt comercial: rol, contexto del negocio, objetivo, información de referencia, instrucciones y formato de respuesta
+- Contexto comercial mínimo: productos, servicios, precios, condiciones de venta y perfil del cliente
+- Política de datos: qué información puedes usar con la IA y cuál no, según la Ley de Protección de Datos Personales (Ley N.º 29733)
+- **Práctica (en vivo):** comparas una respuesta de IA sin contexto con otra que sí lo tiene, completas la plantilla de contexto del caso de la empresa aliada y luego haces la ficha de tu negocio con 2 prompts probados en ChatGPT; cierras con una revisión entre compañeros
+- **Entregable:** ficha de contexto comercial con al menos 5 datos y 2 prompts funcionales y reutilizables (avance 1 del kit)
+
+#### Sesión 2: Atención de consultas y objeciones con IA (2.5 horas, en vivo)
+- Comunicación comercial efectiva para WhatsApp: claridad, personalización y llamada a la acción
+- Tratamiento de objeciones con apoyo de IA
+- Validación de respuestas: información inventada, precios incorrectos, promesas no autorizadas y mensajes que requieren revisión
+- Iteración de prompts: ajustar las instrucciones según el resultado obtenido
+- **Práctica (en vivo):** detectas los errores de una respuesta de IA con datos inventados, respondes consultas y objeciones del caso de la empresa aliada y las verificas con un checklist; después redactas 5 respuestas a consultas u objeciones reales de tu negocio y las pruebas en una simulación cliente/asesor
+- **Entregable:** biblioteca de 5 respuestas comerciales revisadas y validadas, con al menos 4 de 5 correctas y sin información no verificada (avance 2 del kit)
 
 #### Herramientas del módulo
-- Claude Pro (chat, Claude Projects, archivos de referencia)
-- Google Drive (almacenamiento de archivos de referencia)
-- Google Docs o Notion (biblioteca de prompts)
+- ChatGPT (versión gratuita)
+- Google Docs
+- WhatsApp (WhatsApp Business solo como referencia, sin integración)
 
 ---
 
-### Módulo 2: Los Flujos — Construcción de los tres productos
+### Módulo 2: Cotizaciones, seguimiento y kit comercial
 
-Construyes los tres productos uno por uno, cada uno con tus documentos y datos reales. Al cerrar el módulo tienes los tres flujos activos en Claude Pro y al menos un documento real generado con cada uno, exportado a Google Docs o Notion.
+Elaboras una cotización y una secuencia de seguimiento, integras todo en tu kit y lo aplicas en una simulación evaluada.
 
-#### Sesión 3: Producto 1 — Generador de Comunicaciones, parte 1: el flujo (150 min, en vivo)
-- Por qué el contenido de Claude suena genérico: le falta la voz del autor
-- Cómo cargar muestras de escritura propia para que Claude adopte tu tono
-- Arquitectura del Generador: distintos tipos de documento (propuesta, reporte, correo) desde un mismo flujo
-- Prompt engineering para escritura: estilo, nivel de formalidad, longitud objetivo, estructura esperada
-- Cómo exportar el output a Google Docs manteniendo el formato
-- **Laboratorio (en vivo):** configuras el Generador con tus muestras de escritura, lo pruebas con el primer tipo de documento real de tu trabajo y lo exportas a Google Docs listo para enviar
-- **Entregable:** instrucción del Generador (versión 1 probada), 2 muestras de escritura cargadas y tu primer documento real exportado a Google Docs
+#### Sesión 3: Cotizaciones y seguimiento comercial con IA (2.5 horas, en vivo)
+- Estructura de una cotización o propuesta a partir de datos proporcionados y verificados
+- Exactitud: cotejo de precios, condiciones, disponibilidad y cálculos con la lista autorizada
+- Seguimiento según el tipo de cliente: interesado, indeciso o que dejó de responder; mensajes de cierre
+- Orientación al cliente: evitar mensajes insistentes o engañosos
+- Registro manual de oportunidades y seguimientos en Google Sheets
+- **Práctica (en vivo):** identificas el error de cálculo en una cotización generada con IA, armas una secuencia de 3 seguimientos del caso de la empresa aliada y la registras en Sheets; después haces la cotización, los seguimientos y el registro de tu negocio, e intercambias cotizaciones con un compañero para revisar exactitud y claridad
+- **Entregable:** 1 cotización validada, secuencia de 3 mensajes de seguimiento y registro de seguimiento en Google Sheets (avance 3 del kit)
 
-#### Sesión 4: Producto 1 — Generador de Comunicaciones, parte 2: calibración y casos (150 min, en vivo)
-- Cómo adaptar el mismo flujo a distintos tipos de documento sin perder consistencia de voz
-- Técnicas de calibración: cuando el output es bueno en un tipo de documento pero no en otro
-- Cómo construir el menú de documentos de tu flujo
-- Gestión del contexto largo y buenas prácticas de uso sostenido: cuándo abrir una conversación nueva, cómo actualizar la instrucción cuando cambia tu trabajo
-- **Laboratorio (en vivo):** pruebas el Generador con 3 tipos distintos de comunicación real y lo iteras hasta que los 3 producen calidad; documentas cada caso con contexto, prompt, output y tiempo ahorrado
-- **Entregable:** Generador calibrado para 3 tipos de documento, 3 casos de uso documentados con outputs reales e instrucción en versión final guardada en tu Proyecto
-
-#### Sesión 5: Producto 2 — Analizador Documental con Reporte de Hallazgos (150 min, en vivo)
-- Cómo procesa Claude documentos largos y cuáles son sus límites reales de contexto
-- Diseño de criterios de análisis: qué buscar en contratos, políticas e informes
-- Arquitectura del Analizador: instrucción con criterios fijos + prompt de tarea que varía por documento
-- Estructura del reporte de hallazgos: resumen ejecutivo, hallazgos críticos, riesgos, recomendaciones
-- Cómo manejar documentos muy largos: segmentación y análisis por partes
-- **Laboratorio (en vivo):** construyes el Analizador con los criterios del documento más frecuente en tu trabajo, cargas 2 documentos reales y generas 3 reportes: resumen ejecutivo, análisis crítico y comparación entre documentos
-- **Entregable:** Analizador configurado con tus criterios, 3 reportes reales en Google Docs o Notion e instrucción en versión final
-
-#### Sesión 6: Producto 3 — Reporte de Inteligencia a partir de Datos (150 min, en vivo)
-- Cómo analiza Claude datos en texto o tabla: qué puede y qué no puede hacer
-- Diseño del flujo de datos: qué pegar, en qué formato, qué criterios aplicar, qué reporte producir
-- Tipos de análisis sin código: patrones, comparación de periodos, anomalías, ranking, proyección cualitativa
-- Estructura del Reporte de Inteligencia: contexto, hallazgos, alertas, comparación con el periodo anterior, recomendaciones
-- Cómo hacer el reporte repetible cada semana con datos nuevos
-- **Laboratorio (en vivo):** defines el tipo de datos que analizarás, construyes la instrucción con tu formato de reporte, la pruebas con datos reales y generas el primer reporte ejecutivo completo
-- **Entregable:** Reporte de Inteligencia configurado, primer reporte real exportado y reflexión sobre el tiempo ahorrado frente al proceso manual
+#### Sesión 4: Kit comercial con IA y simulación de atención (2.5 horas, en vivo)
+- Organización del kit reutilizable: contexto, prompts, respuestas, cotización, seguimientos y registro
+- Mejora continua: evaluar la utilidad de los mensajes y ajustar las instrucciones
+- Transparencia en el uso de IA frente al cliente
+- Criterios de la rúbrica y fallas críticas
+- **Práctica (en vivo):** autoevalúas el avance de tu kit, completas la plantilla y ajustas tus prompts; después participas en una simulación en parejas (cliente/asesor) en la que resuelves 3 situaciones como asesor, con retroalimentación cruzada y una corrección supervisada
+- **Entregable:** Kit de Atención Comercial con IA integrado y simulación evaluada de 3 situaciones
 
 #### Herramientas del módulo
-- Claude Pro (instrucciones de sistema, archivos de referencia, análisis de documentos y datos)
-- Google Docs / Notion (destino de los documentos generados, plantillas de reporte)
-- Google Drive (documentos y datos de referencia)
-
----
-
-### Módulo 3: Portafolio — Refinamiento, integración y Demo Day
-
-Revisas los tres flujos con mirada crítica, los mejoras, los integras como un sistema y presentas tu portafolio en vivo ante el grupo, generando los documentos en tiempo real.
-
-#### Sesión 7: Refinamiento, integración y preparación del portafolio (150 min, en vivo)
-- Revisión crítica de los tres flujos: qué funciona, qué no, qué mejorar antes del Demo Day
-- Refinamiento avanzado: cuando el problema es estructural y no solo de prompt
-- Cómo integrar los tres flujos como un sistema: cuándo usar cada uno, cómo pasar el output de uno como input de otro
-- Estructura de la presentación: 2 minutos de contexto + 3 demostraciones de 2 minutos + 2 minutos de próximos pasos
-- Cómo preparar la demostración en vivo y qué hacer si algo falla
-- **Laboratorio (en vivo):** refinas los tres flujos con al menos 1 mejora documentada en cada uno, eliges el caso más representativo de cada producto y ensayas la presentación completa
-- **Entregable:** los tres flujos en versión final documentados en tu Proyecto, 3 casos de uso con datos listos para la demostración y estructura de la presentación
-
-#### Sesión 8: Demo Day — Presentación del portafolio en vivo (150 min, en vivo)
-- Presentaciones individuales de 10 minutos con tres demostraciones en vivo, una por flujo
-- Se muestra el documento terminado en Google Docs o Notion: no diapositivas, no la pantalla de Claude
-- Retroalimentación estructurada del grupo: 1 fortaleza específica + 1 pregunta sobre el flujo
-- Cierre: plan de 30 días con los 3 próximos flujos que quieres construir
-- **Laboratorio (en vivo):** tu presentación es el laboratorio; cada estudiante es presentador y evaluador de sus compañeros
-- **Entregable:** portafolio presentado en vivo con los tres flujos funcionando, grabación de tu presentación y plan de 30 días
-
-#### Herramientas del módulo
-- Claude Pro (los tres flujos en versión final)
-- Google Docs / Notion (documentos generados en vivo durante el Demo Day)
+- ChatGPT (versión gratuita)
+- Google Sheets
+- Plantillas de cotización, de registro de seguimiento y del kit
 
 ---
 
 ## Proyecto Final del Curso
 
-### **Tu portafolio de tres flujos con Claude**
+### **Tu Kit de Atención Comercial con IA**
 
-No hay un proyecto separado: los tres productos que construyes durante el curso son el proyecto. En el Demo Day los presentas en vivo, generando los documentos en tiempo real con datos nuevos.
+No hay un proyecto aparte. El kit que armas durante las sesiones es el proyecto, y en la última sesión lo aplicas en una simulación de atención a clientes.
 
-**Componentes del portafolio:**
-- Generador de Comunicaciones calibrado para al menos 3 tipos de documento de tu trabajo
-- Analizador Documental con tus criterios de análisis y documentos de referencia cargados
-- Reporte de Inteligencia con tu formato de reporte y tus datos reales
-- Biblioteca personal con mínimo 15 prompts clasificados por tipo de tarea
-- Demostración en vivo de 10 minutos ante el grupo
+**Componentes del kit:**
+- Ficha de contexto comercial de tu negocio
+- 2 prompts reutilizables
+- 5 respuestas a consultas u objeciones
+- 1 cotización
+- 3 mensajes de seguimiento
+- Registro de seguimiento en Google Sheets
 
-**Entregables:**
-- Los tres flujos activos en tu Claude Pro, cada uno con instrucción final y archivo de referencia
-- Tres documentos reales generados en vivo en Google Docs o Notion, uno por flujo
-- Registro de iteraciones de cada flujo, de la versión inicial a la final
-- Plan de 30 días: los 3 próximos flujos que construirás
+**Simulación final:**
+- Resuelves 3 situaciones comerciales como asesor, en parejas (cliente/asesor)
+- Se evalúa con una rúbrica y una lista de cotejo
+- Tienes una corrección supervisada antes del cierre
 
 ---
 
@@ -206,53 +155,53 @@ No hay un proyecto separado: los tres productos que construyes durante el curso 
 
 La evaluación es 100 % práctica. No hay exámenes escritos.
 
-| Componente | Peso |
-|------------|------|
-| Entregables de sesión (sesiones 1 a 7) | 35 % |
-| Los tres flujos completos en Claude Pro | 30 % |
-| Biblioteca de prompts (mínimo 15) | 15 % |
-| Demo Day: portafolio en vivo | 20 % |
+La rúbrica tiene cuatro criterios de 1 a 3 puntos cada uno, con un máximo de 12:
 
-Nota mínima de aprobación: 70 / 100. El Demo Day es obligatorio y los tres flujos deben estar activos y demostrables. Asistencia mínima: 6 de las 8 sesiones en vivo; las sesiones no asistidas se recuperan con la grabación y el entregable correspondiente.
+| Criterio | 3: Logrado | 2: En proceso | 1: Inicial |
+|----------|------------|---------------|------------|
+| Exactitud comercial | Todos los datos y cálculos son verificables, sin errores relevantes | Desajustes menores corregidos antes del envío | Errores relevantes no corregidos o información inventada |
+| Comunicación comercial | Mensajes claros, personalizados, pertinentes y con siguiente paso | Mensajes claros con personalización parcial | Mensajes genéricos, ambiguos o poco pertinentes |
+| Prompts y autonomía | Construye, ajusta y verifica prompts sin ayuda | Requiere orientación ocasional | No logra instrucciones útiles sin ayuda constante |
+| Cotización y seguimiento | Cotización completa y 3 seguimientos adecuados al caso | Entregables presentes con ajustes menores | Cotización incompleta o seguimientos inadecuados |
+
+**Requisitos para el certificado de aprobación:**
+- Asistencia al 100 % de las sesiones. Una inasistencia por un motivo personal urgente se puede justificar y recuperar en la sesión equivalente de la otra modalidad (sujeto a aforo) o con la grabación. La simulación final se hace en vivo y la grabación no la reemplaza.
+- Entrega completa del kit, incluido el registro de seguimiento en Google Sheets
+- Rúbrica con 8 puntos o más sobre 12
+- Simulación de 3 situaciones con al menos 2 resueltas satisfactoriamente y sin fallas críticas en ninguna
+- Lista de cotejo aprobada: integridad del kit, confidencialidad y revisión humana
+
+Se considera falla crítica un precio o cálculo incorrecto que no detectaste, una promesa comercial no autorizada, la divulgación de datos personales o confidenciales, o un mensaje engañoso.
+
+**Documentos que recibes:**
+- Certificado de aprobación «Aplicación de IA Generativa en la Atención Comercial» por 10 horas, si cumples los requisitos
+- Constancia de participación, si asistes al 80 % o más de las sesiones y no llegas a aprobar
+
+> El taller se certifica de forma independiente y pertenece a la Ruta de Inteligencia Artificial. Quien complete varios talleres de una misma línea temática puede obtener un certificado mayor, con condiciones sujetas a aprobación académica.
 
 ---
 
 ## Resultado Final
 
-Al finalizar el curso tendrás:
+Al finalizar el taller tendrás:
 
-- Tres flujos de trabajo funcionando en tu Claude Pro, construidos con tus documentos y datos reales
-- Documentos profesionales que antes tomaban horas y ahora salen en 10 a 20 minutos, con tu voz y tu formato
-- Una biblioteca de prompts clasificada, con el output de referencia de cada uno
-- El criterio para saber qué delegar a Claude, qué no, y cómo detectar cuándo se equivoca
-- Un plan de 30 días con los próximos tres flujos a construir
-
----
-
-## Diferenciación
-
-| Aspecto      | Otros cursos de IA                        | Enter Tech School                                             |
-|--------------|-------------------------------------------|---------------------------------------------------------------|
-| Resultado    | Sabes usar la herramienta                 | Tres flujos funcionando con tus datos reales                  |
-| Entregable   | Conversaciones en la app o certificado    | Documentos reales en Google Docs o Notion                     |
-| Aplicación   | Ejercicios genéricos de ejemplo           | Tu trabajo, tus documentos, tus datos desde la sesión 1       |
-| Práctica     | Videos grabados                           | 8 sesiones en vivo con laboratorio individual acompañado      |
-| Post-curso   | Recuerdas lo que aprendiste si practicas  | El flujo queda guardado: lo activas cuando lo necesitas       |
-| Demo Day     | Presentación de lo que aprendiste         | Documento final generado en vivo en 10 minutos                |
-| Continuidad  | Sin ruta siguiente                        | Ruta AI: AI 101 (automatización) y AI 102 (flujos con Claude) |
-
-> AI 101 y AI 102 son complementarios y ninguno es requisito del otro. AI 101 construye sistemas automatizados que corren solos con Make y Gemini. AI 102 construye flujos de trabajo cognitivo con Claude que activas cuando los necesitas y producen un documento terminado en minutos.
+- Una ficha con el contexto comercial de tu negocio, lista para usar con IA
+- 2 prompts reutilizables y 5 respuestas validadas para consultas y objeciones frecuentes
+- Una cotización y una secuencia de 3 mensajes de seguimiento hechas con tus datos
+- Un registro de seguimiento en Google Sheets
+- La práctica de revisar cada respuesta de la IA antes de enviarla: precios, cálculos, promesas y datos personales
 
 ---
 
 ## Herramientas del programa
 
-| Categoría          | Herramientas                                       | Costo                                  |
-|--------------------|----------------------------------------------------|----------------------------------------|
-| IA generativa      | Claude Pro (chat, Claude Projects, archivos)       | USD 20/mes, lo paga el estudiante      |
-| Documentos         | Google Docs · Notion                               | Gratuito                               |
-| Almacenamiento     | Google Drive                                       | Gratuito                               |
+| Categoría          | Herramientas                        | Costo    |
+|--------------------|-------------------------------------|----------|
+| IA generativa      | ChatGPT (versión gratuita)          | Gratuito |
+| Documentos y datos | Google Docs · Google Sheets         | Gratuito |
+| Mensajería         | WhatsApp                            | Gratuito |
+| Clases online      | Microsoft Teams                     | Gratuito |
 
-> **Sobre Claude Pro:** cuesta USD 20 al mes (aproximadamente S/ 76) y lo pagas directamente a Anthropic. No está incluido en el precio del curso. El plan Pro incluye Claude Projects, indispensable para construir los flujos. Sin Claude Pro no es posible completar los productos del curso.
+> El taller no incluye automatizaciones ni integraciones entre sistemas. Todo se trabaja directamente en ChatGPT, Google Docs y Google Sheets.
 
-**Materiales incluidos:** grabación de las 8 sesiones disponible por 6 meses, 3 plantillas de instrucciones de sistema (una por flujo), banco de prompts de referencia, guía de exportación a Google Docs y Notion, plantillas de documentos, comunidad privada de participantes y sesión de soporte semanal de 1 hora con el instructor.
+**Materiales incluidos:** guía del participante, plantilla de contexto comercial, biblioteca de prompts (atención, objeciones, cotización y seguimiento), plantilla de respuestas frecuentes, checklist de verificación de respuestas de IA, plantillas de cotización y de registro de seguimiento, y plantilla del kit.
