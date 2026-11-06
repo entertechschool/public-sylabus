@@ -61,24 +61,6 @@ Al finalizar este taller, podrás:
 
 ---
 
-## El producto que construyes
-
-Tu **Kit de Atención Comercial con IA** se arma con la información de tu propio negocio y avanza sesión a sesión.
-
-| Componente | Cantidad | Sesión online |
-|------------|----------|---------------|
-| Ficha de contexto comercial con al menos 5 datos de tu negocio | 1 | Sesión 1 |
-| Prompts reutilizables | 2 | Sesión 1 |
-| Respuestas a consultas u objeciones, revisadas y validadas | 5 | Sesión 2 |
-| Cotización validada contra tu lista de precios | 1 | Sesión 3 |
-| Mensajes de seguimiento | 3 | Sesión 3 |
-| Registro de seguimiento en Google Sheets | 1 | Sesión 3 |
-| Kit integrado y simulación de 3 situaciones comerciales | 1 | Sesión 4 |
-
-En cada sesión trabajas primero con el caso real de una empresa aliada, guiado por el instructor, y después aplicas lo mismo a tu negocio.
-
----
-
 ## Sílabo del Curso
 
 Las cuatro sesiones siguientes corresponden a la modalidad online. En la modalidad presencial se ven los mismos contenidos en dos sábados: el **sábado 1** cubre las sesiones 1 y 2, y el **sábado 2** cubre las sesiones 3 y 4. Los resultados, el kit, la rúbrica y la simulación son los mismos en ambas modalidades.
@@ -103,11 +85,6 @@ Ordenas la información de tu negocio, aprendes a darle instrucciones a la IA y 
 - **Práctica (en vivo):** detectas los errores de una respuesta de IA con datos inventados, respondes consultas y objeciones del caso de la empresa aliada y las verificas con un checklist; después redactas 5 respuestas a consultas u objeciones reales de tu negocio y las pruebas en una simulación cliente/asesor
 - **Entregable:** biblioteca de 5 respuestas comerciales revisadas y validadas, con al menos 4 de 5 correctas y sin información no verificada (avance 2 del kit)
 
-#### Herramientas del módulo
-- ChatGPT (versión gratuita)
-- Google Docs
-- WhatsApp (WhatsApp Business solo como referencia, sin integración)
-
 ---
 
 ### Módulo 2: Cotizaciones, seguimiento y kit comercial
@@ -130,11 +107,6 @@ Elaboras una cotización y una secuencia de seguimiento, integras todo en tu kit
 - Criterios de la rúbrica y fallas críticas
 - **Práctica (en vivo):** autoevalúas el avance de tu kit, completas la plantilla y ajustas tus prompts; después participas en una simulación en parejas (cliente/asesor) en la que resuelves 3 situaciones como asesor, con retroalimentación cruzada y una corrección supervisada
 - **Entregable:** Kit de Atención Comercial con IA integrado y simulación evaluada de 3 situaciones
-
-#### Herramientas del módulo
-- ChatGPT (versión gratuita)
-- Google Sheets
-- Plantillas de cotización, de registro de seguimiento y del kit
 
 ---
 
@@ -161,43 +133,12 @@ No hay un proyecto aparte. El kit que armas durante las sesiones es el proyecto,
 
 ## Evaluación
 
-La evaluación es 100 % práctica. No hay exámenes escritos.
+La evaluación es 100 % práctica. La simulación final se califica mediante una rúbrica de evaluación.
 
-La rúbrica tiene cuatro criterios de 1 a 3 puntos cada uno, con un máximo de 12:
-
-| Criterio | 3: Logrado | 2: En proceso | 1: Inicial |
-|----------|------------|---------------|------------|
-| Exactitud comercial | Todos los datos y cálculos son verificables, sin errores relevantes | Desajustes menores corregidos antes del envío | Errores relevantes no corregidos o información inventada |
-| Comunicación comercial | Mensajes claros, personalizados, pertinentes y con siguiente paso | Mensajes claros con personalización parcial | Mensajes genéricos, ambiguos o poco pertinentes |
-| Prompts y autonomía | Construye, ajusta y verifica prompts sin ayuda | Requiere orientación ocasional | No logra instrucciones útiles sin ayuda constante |
-| Cotización y seguimiento | Cotización completa y 3 seguimientos adecuados al caso | Entregables presentes con ajustes menores | Cotización incompleta o seguimientos inadecuados |
-
-**Requisitos para el certificado de aprobación:**
-- Asistencia al 100 % de las sesiones. Una inasistencia por un motivo personal urgente se puede justificar y recuperar en la sesión equivalente de la otra modalidad (sujeto a aforo) o con la grabación. La simulación final se hace en vivo y la grabación no la reemplaza.
+**Requisitos para obtener el certificado:**
+- Asistencia del 100 % a todas las sesiones
 - Entrega completa del kit, incluido el registro de seguimiento en Google Sheets
-- Rúbrica con 8 puntos o más sobre 12
-- Simulación de 3 situaciones con al menos 2 resueltas satisfactoriamente y sin fallas críticas en ninguna
-- Lista de cotejo aprobada: integridad del kit, confidencialidad y revisión humana
-
-Se considera falla crítica un precio o cálculo incorrecto que no detectaste, una promesa comercial no autorizada, la divulgación de datos personales o confidenciales, o un mensaje engañoso.
-
-**Documentos que recibes:**
-- Certificado de aprobación «Aplicación de IA Generativa en la Atención Comercial» por 10 horas, si cumples los requisitos
-- Constancia de participación, si asistes al 80 % o más de las sesiones y no llegas a aprobar
-
-> El taller se certifica de forma independiente y pertenece a la Ruta de Inteligencia Artificial. Quien complete varios talleres de una misma línea temática puede obtener un certificado mayor, con condiciones sujetas a aprobación académica.
-
----
-
-## Resultado Final
-
-Al finalizar el taller tendrás:
-
-- Una ficha con el contexto comercial de tu negocio, lista para usar con IA
-- 2 prompts reutilizables y 5 respuestas validadas para consultas y objeciones frecuentes
-- Una cotización y una secuencia de 3 mensajes de seguimiento hechas con tus datos
-- Un registro de seguimiento en Google Sheets
-- La práctica de revisar cada respuesta de la IA antes de enviarla: precios, cálculos, promesas y datos personales
+- Calificación en base a la rúbrica ≥ 8/12
 
 ---
 
@@ -209,7 +150,6 @@ Al finalizar el taller tendrás:
 | Documentos y datos | Google Docs · Google Sheets         | Gratuito |
 | Mensajería         | WhatsApp                            | Gratuito |
 | Clases online      | Microsoft Teams                     | Gratuito |
+| Aula virtual       | Blackboard                          | Gratuito |
 
 > El taller no incluye automatizaciones ni integraciones entre sistemas. Todo se trabaja directamente en ChatGPT, Google Docs y Google Sheets.
-
-**Materiales incluidos:** guía del participante, plantilla de contexto comercial, biblioteca de prompts (atención, objeciones, cotización y seguimiento), plantilla de respuestas frecuentes, checklist de verificación de respuestas de IA, plantillas de cotización y de registro de seguimiento, y plantilla del kit.
