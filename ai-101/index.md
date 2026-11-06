@@ -53,7 +53,7 @@ Al finalizar este curso, podrás:
 
 ### Módulo 1: Piezas del Sistema
 
-Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA, cómo conectar tus cuentas Google a una plataforma de automatización, cómo darle "cerebro" de IA a un flujo, cómo convertir su respuesta en datos limpios, cómo generar documentos automáticos con plantillas y cómo blindar el flujo contra errores. Al cerrar el módulo ya tienes un sistema de facturas completo y robusto funcionando solo.
+Aprendes las piezas base del sistema de automatización: cómo hablarle bien a la IA, cómo conectar tus cuentas Google a una plataforma de automatización, cómo darle "cerebro" de IA a un flujo y cómo convertir su respuesta en datos limpios. Al cerrar el módulo tienes un flujo que lee documentos con IA y registra sus datos, ya ordenados, en un Google Sheet.
 
 #### Sesión 1: Prompts efectivos
 - Qué es un prompt y cómo influye en la calidad de la respuesta de la IA
@@ -87,6 +87,12 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 - **Mini-proyecto (en vivo):** extracción de ventas desde Gmail → JSON → cada campo en su columna
 - **Entregable:** flujo que convierte texto libre en datos estructurados completos
 
+---
+
+### Módulo 2: Sistema Completo y Tu Proyecto
+
+Completas el sistema: generas documentos automáticos con plantillas y blindas el flujo contra errores. Después aplicas todo a un caso real de tu propio trabajo: diagramas tu flujo, construyes una primera versión funcionando con tus datos y la presentas en Demo Day.
+
 #### Sesión 5: Plantillas con placeholders
 - Qué es una plantilla: formato fijo, datos variables
 - Placeholders `{% raw %}{{variable}}{% endraw %}`: cómo Make rellena cada hueco con un dato real
@@ -102,12 +108,6 @@ Aprendes cada pieza del sistema de automatización: cómo hablarle bien a la IA,
 - Logs y monitoreo: saber qué pasó en cada corrida
 - **Mini-proyecto (en vivo):** flujo completo de facturas (Drive → IA → Sheets → Docs → email) con filtros, router y manejo de errores
 - **Entregable:** sistema de facturas completo y robusto funcionando solo
-
----
-
-### Módulo 2: Tu Proyecto
-
-Aplicas todo lo aprendido a un caso real de tu propio trabajo: diagramas tu flujo, construyes una primera versión funcionando con tus datos y la presentas en Demo Day.
 
 #### Sesión 7: Proyecto integrador
 - Transferir el patrón aprendido a un caso real propio
