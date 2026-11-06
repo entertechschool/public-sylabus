@@ -20,8 +20,6 @@ title: "AI 102 — IA Aplicada a la Gestión Comercial"
 - Una cuenta de Google (Docs y Sheets)
 - La información comercial de tu negocio: productos o servicios, precios y condiciones de venta
 
-> 🟢 No se requiere experiencia en programación ni en IA.
-
 > En 10 horas armas tu Kit de Atención Comercial con IA y lo pones a prueba en una simulación con tres situaciones de venta.
 
 ## Inversión de tiempo
