@@ -12,8 +12,6 @@ title: "AI 101 — IA + Automatización"
 **Dirigido a**: Profesionales en activo, emprendedores o estudiantes avanzados que quieren automatizar tareas repetitivas de su trabajo con IA, sin perfil técnico.  
 **Prerequisitos**: Ninguno. Solo manejo básico de navegación web, correo y Google Drive.
 
-> 🟢 No se requiere experiencia en programación ni en IA.
-
 > En 8 sesiones construirás un sistema que detecta documentos, extrae sus datos con IA, los registra y genera reportes automáticos — todo con herramientas 100% gratuitas y aplicado a un caso real de tu trabajo.
 
 ## Inversión de tiempo

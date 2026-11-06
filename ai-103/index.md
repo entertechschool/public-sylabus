@@ -14,8 +14,6 @@ title: "AI 103 — Automatización con Claude Cowork"
 **Dirigido a**: Profesionales de cualquier área (marketing, ventas, RR.HH., administración, legal, operaciones) que producen propuestas, reportes, correos o análisis en su trabajo y quieren que Claude los haga con su criterio y su formato.  
 **Prerequisitos**: Ninguno en programación ni en IA. Necesitas una suscripción a Claude Pro activa desde la sesión 1, una cuenta de Google (Docs y Drive) o Notion, y tareas reales de tu trabajo para traer a clase.
 
-> 🟢 No se requiere experiencia en programación ni en IA.
-
 > En 8 sesiones construirás tres herramientas propias: un Generador de Comunicaciones, un Analizador Documental y un Reporte de Inteligencia a partir de Datos. Las tres viven en tu Claude Pro, funcionan con tus datos reales y las presentas en vivo en el Demo Day.
 
 ## Inversión de tiempo
