@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "AI 102 — IA Aplicada a la Gestión Comercial"
+title: "Taller — IA Aplicada a la Gestión Comercial"
 ---
 
-# AI 102 — IA Aplicada a la Gestión Comercial
+# Taller — IA Aplicada a la Gestión Comercial
 
 > Atiende consultas, responde objeciones, arma cotizaciones y haz seguimiento a tus clientes con ayuda de IA generativa, usando la información real de tu negocio y revisando cada mensaje antes de enviarlo.
 
@@ -69,7 +69,7 @@ Las cuatro sesiones siguientes corresponden a la modalidad online. En la modalid
 
 Ordenas la información de tu negocio, aprendes a darle instrucciones a la IA y respondes consultas y objeciones de clientes. Al cerrar el módulo tienes tu ficha de contexto, 2 prompts y 5 respuestas validadas.
 
-#### Sesión 1: Preparación del contexto comercial y uso de IA (2.5 horas, en vivo)
+#### Sesión 1: Preparación del contexto comercial y uso de IA
 - Qué puede hacer un asistente de IA en atención comercial, sus limitaciones y qué tareas requieren supervisión humana
 - Estructura del prompt comercial: rol, contexto del negocio, objetivo, información de referencia, instrucciones y formato de respuesta
 - Contexto comercial mínimo: productos, servicios, precios, condiciones de venta y perfil del cliente
@@ -77,7 +77,7 @@ Ordenas la información de tu negocio, aprendes a darle instrucciones a la IA y 
 - **Práctica (en vivo):** comparas una respuesta de IA sin contexto con otra que sí lo tiene, completas la plantilla de contexto del caso de la empresa aliada y luego haces la ficha de tu negocio con 2 prompts probados en ChatGPT; cierras con una revisión entre compañeros
 - **Entregable:** ficha de contexto comercial con al menos 5 datos y 2 prompts funcionales y reutilizables (avance 1 del kit)
 
-#### Sesión 2: Atención de consultas y objeciones con IA (2.5 horas, en vivo)
+#### Sesión 2: Atención de consultas y objeciones con IA
 - Comunicación comercial efectiva para WhatsApp: claridad, personalización y llamada a la acción
 - Tratamiento de objeciones con apoyo de IA
 - Validación de respuestas: información inventada, precios incorrectos, promesas no autorizadas y mensajes que requieren revisión
@@ -91,7 +91,7 @@ Ordenas la información de tu negocio, aprendes a darle instrucciones a la IA y 
 
 Elaboras una cotización y una secuencia de seguimiento, integras todo en tu kit y lo aplicas en una simulación evaluada.
 
-#### Sesión 3: Cotizaciones y seguimiento comercial con IA (2.5 horas, en vivo)
+#### Sesión 3: Cotizaciones y seguimiento comercial con IA
 - Estructura de una cotización o propuesta a partir de datos proporcionados y verificados
 - Exactitud: cotejo de precios, condiciones, disponibilidad y cálculos con la lista autorizada
 - Seguimiento según el tipo de cliente: interesado, indeciso o que dejó de responder; mensajes de cierre
@@ -100,7 +100,7 @@ Elaboras una cotización y una secuencia de seguimiento, integras todo en tu kit
 - **Práctica (en vivo):** identificas el error de cálculo en una cotización generada con IA, armas una secuencia de 3 seguimientos del caso de la empresa aliada y la registras en Sheets; después haces la cotización, los seguimientos y el registro de tu negocio, e intercambias cotizaciones con un compañero para revisar exactitud y claridad
 - **Entregable:** 1 cotización validada, secuencia de 3 mensajes de seguimiento y registro de seguimiento en Google Sheets (avance 3 del kit)
 
-#### Sesión 4: Kit comercial con IA y simulación de atención (2.5 horas, en vivo)
+#### Sesión 4: Kit comercial con IA y simulación de atención
 - Organización del kit reutilizable: contexto, prompts, respuestas, cotización, seguimientos y registro
 - Mejora continua: evaluar la utilidad de los mensajes y ajustar las instrucciones
 - Transparencia en el uso de IA frente al cliente
